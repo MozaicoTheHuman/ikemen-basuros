@@ -1,0 +1,231 @@
+﻿ADD004 Alpha for Ikemen_GO_0.94
+
+ - unzip to your "ikemen/data/"
+ - "ikemen\data\"に解凍してお使いください
+
+ - "/save/config.json"
+   - "Motif": "data/add004/system.def",
+   - "CommonAir": "data/add004/common.air",
+   - "CommonCmd": "data/add004/common.cmd",
+   - "CommonConst": "data/add004/common.const",
+   - "CommonStates": [
+		"data/dizzy.zss",
+		"data/guardbreak.zss",
+		"data/score.zss",
+		"data/add004/a4b_helper.zss",
+		"data/add004/a4b_helper_proj.zss",
+		"data/add004/a4b_common.zss",
+		"data/add004/a4b_screen.zss",
+		"data/add004/a4b_main.zss",
+		"data/add004/a4b_rank.zss",
+		"data/add004/a4b_tag.zss"
+	],
+
+ - when "data/add004/common1.cns.zss" conflicted with "data/common1.cns.zss",
+   disable "data/common1.cns.zss" (by rename or move to other place)
+ - "data\add004\common1.cns.zss"は"data\common1.cns.zss"と競合する場合、
+   "data\common1.cns.zss"を無効にしてください (名前変更か、ほかの場所に移動など)
+
+
+------
+------
+Update:
+
+#20200830a62
+ - add "mode-select"
+ - fixed switch of tag/simul mode
+ - fixed time counter
+
+#20200614a61
+ - add "System_Switch" >> "common.const"
+
+#20200614a60
+ - fixed timer
+ - fixed rank "a4b_rank.zss"
+ - "common1.cns.zss" >> "a4b_common.zss"
+
+#20200523a58
+ - test
+   - sliced "common1.cns.zss" in "data/add004/"
+     "data\add004\"にある"common1.cns.zss"を分割
+ - use ikemen go default score system
+ - fixed "a4b_main.zss" >>sys::partner::down
+ - fixed "a4b_main.zss" >>sys::panel_side_scroll
+
+#20200516a56
+ - fixed "system.def" menu.window.margins.y
+ - fixed VS_Screen [helper] for 8vs8
+ - simplified score system "bonus_up"
+ - message sprites enlarged
+ - lifebar, powerbar pos y auto-change in 4:3 or 16:9
+ - ikemen本体がイロイロと新要素が増えてワクワク
+
+#20200320a53
+ - recode: tag mode
+ - update to: tag 8vs8
+
+#20200315a52
+ - update to: ikemen go plus 0.9
+ - update: system.def (16:9)/(320x180)
+ - change: tag system...
+
+#20200308a50
+ - "bug"-fix :(
+
+#20191111a35
+ - タイプミス修正
+ - const240p の仕様変更に対応
+ - statedef 195500
+    sysvar(2)をsysvar(1)に変更
+     なぜかsysvar(2)は小数扱いに、代入/参照できない
+     解像度320x180時、ScreenWidth="319.5" ScreenHeight="180.0"
+
+#20191109a33
+ - ZSS 文法ミス修正
+ - 関数をちょいと使ってみる
+ - fixed sctrl zoom
+ - statedef 91000
+
+#20191025a32
+ - CNS to ZSS
+
+#20190923a20
+ - CNS to ZSS tag system only
+
+#20190904a17
+ - [statedef 190190-190192]
+ - [statedef 195500]
+
+#20190903a16
+ - [statedef 90909] [.05a] >>sys::init_mode_single
+ - Block/JD [statedef 195500] [.03a3]
+ - [statedef 190190-190192]
+
+#20190901a15
+ - Tag_Out/In [statedef 190190-190192]
+
+#20190830a14
+ - VS_screen helper [statedef 185905] [.10]
+    pause -> superpause
+ - Sample Chars
+    added "map()"
+
+#20190825a13
+ - Round_Call helper [statedef 180000]
+ - K.O. helper [statedef 180010]
+ - VS_screen helper [statedef 185905]
+
+#20190807a11
+ - VS_screen helper
+ - ">>sys::partner_id_get3"
+    simulモード時バー表示、少し安定してきたかな(-.,-
+
+#20190804a9
+ - simul mode
+ - ">>sys::partner_id_get3"
+
+#20190803a8
+ - VS_Screen by Helper
+   ヘルパーによるVS画面表示
+
+#20190731a7
+ - VS Screen by player
+   Player本体によるVS画面表示(不具合多し)
+
+#20190727a6
+ - added img "i.k.e.m.e.n" for rank and msg
+   コンボ/ランク用 "i.k.e.m.e.n" 画像追加
+ - ">>sys::partner_id_get3"
+
+#20190717a5
+ - タグ対戦の種類に対応
+ - VS画面(テスト版)実装
+ - KO表示されない不具合修正
+
+
+------
+------
+メモ:
+
+1.ikemen規格ZSS採用
+  - 関数使用
+  - 変数map()使用
+  - ikemen専用trigger "majorversion" を使用
+     描画のズレに対応するため
+  - ikemen専用trigger "teammode=tag" を使用
+     タグ対戦の種類に対応するため
+  - ikemen専用parameter "flag=roundnotskip" を使用
+     VS画面(テスト版)中、スキップを防ぐため
+  - ikemen専用trigger "TimeLeft" を使用
+     ラウンド時間表示用
+
+  - ZSS規格では、ほとんどの機能はキャラ本体による関数化が可能、
+    よって、ヘルパーを生成したり、消去したりすることはなくなり、
+    リソースの無駄使いも「処理落ち」も改善できそう…
+
+
+2.実装8vs8
+  同時対戦初期値16人まで想定(上限ではありません)
+
+3.KO表示されない
+  "fight_240p.def" ("fight.def")
+  [round]
+   over.hittime=0 直接タイムオーバーに飛ぶ
+   over.hittime=1 ikemen,mugen両方対応
+
+4.動作確認にWindblade氏のコンパイル済みwin32bit版exeを使用(感謝)
+  (mugenとの互換、比較を重点とします)
+
+5.個人PC環境は、OpenGL2以上非対応のため、
+  最新版のikemen_GOおよびコンパイル済みexeでのテストではありません。
+
+6.色化け(個人PC環境)
+  外部"OpenGL32.dll"の導入により解決できますが、
+  最近のPCでは問題ないでしょう。
+
+7.ビット演算は括弧を使うべし
+
+8.画面比率16:9設定時、キャラの位置が高すぎ：
+  Stages > "***.def" > "[Camera]" > "cuthigh=**" / "cutlow=**" で調節可能。
+  (IKEMEN_GO_0.94版では未サポート?)
+
+
+------
+------
+追記：
+  "common1.cns" / "common1.cns.zss" (共通)を修正／編集するだけで、
+  ゲーム全体のバランス調整、多機能化などが可能になります。
+  編集自体もよりしやすくなります…
+
+  * 他の製作者さんの製作スタイルを干渉するものでは、決してありません。
+  * コンプゲーの形で無断転載などを推奨するものでは、決してありません。
+    (コンプゲーで使用された場合、当アドオンとは無関係です)
+
+ キャラクターのcnsによっては、
+ 競合、不都合、予想外の動作など、発生する場合がございます。
+ キャラクター原製作者に対して、いかなる要求はマナー違反です。止めて下さい。
+
+ depending on the characters' cns,
+ conflict, inconvenience, unexpected moves... may occur.
+ please do NOT ask the author of original character to do anything.
+ it is rude!!!
+
+
+------
+------
+リンク：
+ [ikemen go]
+ GO言語ソース
+  https://osdn.net/users/supersuehiro/pf/ikemen_go/wiki/FrontPage
+  https://osdn.net/users/neatunsou/pf/ikemen_go/wiki/FrontPage
+
+ コンパイル済みexe、その他
+  https://github.com/Windblade-GR01/Ikemen_GO/releases
+
+ [ikemen go plus]
+  https://github.com/K4thos/Ikemen-GO-Plus/
+
+ [mfg]
+ 掲示板
+  http://mugenguild.com/forum/topics/ikemen-go-plus-184152.0.html
+

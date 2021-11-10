@@ -1,0 +1,415 @@
+
+;---------------------------------------------------------------------------
+;Hit Spark - > (1)
+[StateDef 9000]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = 10
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - > (2)
+[StateDef 9001]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = 0
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - > (3)
+[StateDef 9002]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -10
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - V (1)
+[StateDef 9003]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -80
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - V (2)
+[StateDef 9004]
+type = S
+anim = 3000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -75
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - V (3)
+[StateDef 9005]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -85
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - Meteor
+[StateDef 9006]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -90
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - Ivette
+[StateDef 9007]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -45
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - >^ (1)
+[StateDef 9008]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = 35
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - >^ (2)
+[StateDef 9009]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = 30
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - >^ (3)
+[StateDef 9010]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = 40
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - >V (1)
+[StateDef 9011]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -30
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - >V (2)
+[StateDef 9012]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -35
+ignorehitpause = 1
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
+
+;---------------------------------------------------------------------------
+;Hit Spark - >V (3)
+[StateDef 9013]
+type = S
+anim = 9000
+sprpriority = -1
+
+[State 0, Trans]
+type = Trans
+trigger1 = 1
+trans = add ;none, add, addalpha, add1, sub
+alpha = 256,256
+ignorehitpause = 1
+persistent = 1
+
+[State 0, AngleDraw]
+type = AngleDraw
+trigger1 = time > 0
+value = -40
+ignorehitpause = 1
+
+[State xd]
+type = AssertSpecial
+trigger1 = 1
+flag = noshadow
+
+[State 0, ChangeState]
+type = DestroySelf
+trigger1 = animtime = 0
