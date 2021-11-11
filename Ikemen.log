@@ -1,5 +1,5 @@
-.\external\script\start.lua:1398: chars\NewMartin/Martin.cns:502:
-Martin Cayendo
+.\external\script\start.lua:1398: chars\Martin/Martin.cns:465:
+vs Chara - Benjamin
 name: Not enclosed in "
 stack traceback:
 	[G]: in function 'game'
