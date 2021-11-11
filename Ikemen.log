@@ -1,9 +1,13 @@
-external/script/main.lua:3945: <game end>
+.\external\script\start.lua:1398: chars\NewMartin/Martin.cns:502:
+Martin Cayendo
+name: Not enclosed in "
 stack traceback:
-	[G]: in function 'refresh'
-	external/script/main.lua:3945: in function 'f_menuCommonDraw'
-	external/script/main.lua:3015: in function 'loop'
-	external/script/main.lua:3103: in function 'loop'
+	[G]: in function 'game'
+	.\external\script\start.lua:1398: in function 'f_game'
+	.\external\script\start.lua:1815: in function 'launchFight'
+	external/script/default.lua:2: in function <external/script/default.lua:0>
+	.\external\script\start.lua:1451: in function 'f'
+	external/script/main.lua:2983: in function 'loop'
 	external/script/main.lua:3103: in function 'loop'
 	external/script/main.lua:4081: in main chunk
 	[G]: ?
