@@ -1,0 +1,94 @@
+;------------------------------------------------------------------------------------------;
+|        MOVES README Made By Spat856 (me adam amundson) Here you Frikin go                |
+;------------------------------------------------------------------------------------------;
+[THIS IS ALL ANYONE WANTS READMES FOR]
+[the moves list] ;because your too Dang frikin lazy to just open the character in 
+          fighter factory and going to the cm FRIKIN D >:(
+
+[Hyper moves]
+
+Chex Quest Time
+~D, DF, F, x+y
+SpecialBar = 1000
+
+;------------------------------------------------------------------------------------------;
+;------------------------------------------------------------------------------------------;
+
+BASH0R Face
+~D, D, x+y
+SpecialBar = 1000
+
+&&//OR//&&
+
+BASH0R Face
+~D, D, y+z
+SpecialBar = 1000
+
+&&//OR//&&
+
+BASH0R Face
+~D, D, x+z
+SpecialBar = 1000
+
+;------------------------------------------------------------------------------------------;
+;------------------------------------------------------------------------------------------;
+
+
+TONYBAT
+~D, DB, B, b+c
+SpecialBar = 1000
+
+
+;------------------------------------------------------------------------------------------;
+;------------------------------------------------------------------------------------------;
+
+Bass Cannon
+~D, DF, F, D, DF, y
+SpecialBar = 2000
+
+
+;------------------------------------------------------------------------------------------;
+;------------------------------------------------------------------------------------------;
+
+Creeper Hold of Death
+~D, F, D, B, z
+SpecialBar = 3000
+
+;------------------------------------------------------------------------------------------
+[special moves]
+
+Commander Keens Neural Stunner
+~D, DF, F, z
+SpecialBar = 500
+
+Commander Keens Neural Stunner (WHILE IN THE AIR!!)
+/D,Z       the (/) means to hold down down :P
+SpecialBar = 500
+
+MrSpickles
+~D, DF, F, y
+
+
+Super Old School GameBoy
+~D, DF, F, x
+
+
+CUTCUTA
+~D, DB, B, a
+
+
+CUTCUTB
+~D, DB, B, b
+
+
+TrollBat
+~D, DB, B, c
+
+Nepeta
+~D, D, z
+
+Dodge
+~x+y+z
+SpecialBar = 10
+
+

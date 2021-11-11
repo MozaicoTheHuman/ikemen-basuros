@@ -1,0 +1,125 @@
+;---------------------------------------------------------------------------
+;Bosque Muerto
+;-----------------
+;fatal move Peketo
+;-----------------
+;decapitado - cabeza (helper)
+[Statedef 912320]
+type = A
+movetype= I
+physics = N
+poweradd= 0
+ctrl = 0
+velset = -1+(random/500.0),ifelse(root,stateno=3011,-10,-5)
+sprpriority = 7
+anim = 912320
+
+[State 210, Width]
+type = veladd
+trigger1 = 1
+y = .3
+
+[State 191, Snd 2]
+type = PlaySnd
+trigger1 = pos Y >= -3 && vel y > 0
+value = F7,0
+freqmul = 1.3
+volume = 100
+persistent = 0
+
+[State 220, 3]
+type = velset
+trigger1 = pos Y >= -3 && vel y > 0
+y = -4.8
+persistent = 0
+
+[State 220, 3]
+type = changeanim
+trigger1 = pos Y >= 0 && vel y > 0 && anim != 912321
+value = 912321
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = anim = 912321
+x = 0
+y = 0
+
+[State 0, VelSet]
+type = posSet
+trigger1 = anim = 912321
+y = 4
+
+[State 191, Snd 2]
+type = PlaySnd
+trigger1 = anim = 912321
+value = F7,0
+freqmul = 1.3
+volume = 100
+persistent = 0
+
+;-----------------
+;fatal move Animus
+;-----------------
+;cortado al medio - piernas (helper)
+
+[Statedef 91241]
+type = S
+movetype= I
+physics = N
+poweradd= 0
+ctrl = 0
+
+[State 0, ChangeAnim2]
+type = ChangeAnim
+trigger1 = !time
+value = 91242
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = !time
+x = 3+(random/500.0)
+y = -3
+
+[State 0, VelAdd]
+type = VelAdd
+trigger1 = 1
+y = .4
+
+[State 0, ChangeAnim2]
+type = ChangeAnim
+trigger1 = vel y > 0 && pos y > 0
+value = 91243
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = anim = 91243
+x = 0
+y = 0
+
+[State 0, VelSet]
+type = posset
+trigger1 = anim = 91243
+y = 0
+
+;ondita
+[State 0, Explod]
+type = Explod
+trigger1 = anim = 91243
+anim = f 61
+pos = 20,0
+sprpriority = 0
+persistent = 0
+
+[State 0, EnvShake]
+type = EnvShake
+trigger1 = anim = 91243
+time = 10
+ampl = -8
+persistent = 0
+
+[State 440, 2]
+type = PlaySnd
+trigger1 = anim = 91243
+value = f 7, 1
+persistent = 0
+

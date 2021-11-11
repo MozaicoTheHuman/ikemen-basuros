@@ -207,6 +207,47 @@ bf-mugen
 Maavo
 Cactus
 Wach
+Adam
+Adam_S856
+Adom
+cj
+daniel
+Daniel_2x
+Daniel_CVSPalPatch
+dhd
+Donald
+drake
+Gallegos1119
+GokuZ2
+Gumball
+HanzoS2
+Hieloso
+Joe Swanson
+jotaro
+Juan_MvC
+Martin
+MartinBravo
+kfmZ
+Matias
+mordecai1105
+Nappa
+newgeorge
+NewMartin
+Nick
+Pepito
+Nick
+peter
+pingu
+Rick_Renalds
+robbie rotten
+Ryu
+Shaggy
+the big chicken
+the_ulikander
+Ulikander2
+Ulikander
+vinnie
+YKun
 
 ;-------------------------------------------------------------------------------
 [ExtraStages]
@@ -276,6 +317,25 @@ Wach
 stages/kfm.def
 stages/stage0.def
 stages/stage0-720.def
+stages/badstreet.def
+stages/Ballistic.def
+stages/blankland.def
+stages/DarkSuzakuCastle.def
+stages/downtown_springfield.def
+stages/ducktales1.def
+stages/finaldest2.def
+stages/FinalDestination.def
+stages/FNF_TargetPractice.def
+stages/FNF_Zavodila.def
+stages/FridayNightFunkinFunInfiniteStage.def
+stages/gangplank.def
+stages/GreenHill.def
+stages/kirby-wii-last.def
+stages/kof95-psycho.def
+stages/Midgar_Big.def
+stages/Smash_Mementos.def
+stages/Terry_Stage.def
+stages/Undertale-LastCorridor.def
 
 ;-------------------------------------------------------------------------------
 [Options]

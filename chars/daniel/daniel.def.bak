@@ -1,0 +1,39 @@
+; Definition file for Daniel
+; Contains all the filenames needed for the character
+; Editing Kung Fu Man
+
+; Player information
+[Info]
+name ="Daniel Gajardo Pulgar"
+displayname ="Daniel"
+versiondate =18-04-2009
+mugenversion =04/14/2002
+author ="Daniel Gajardo Pulgar"
+pal.defaults =1,2
+
+; Files for the player
+[Files]
+cmd     =daniel.cmd
+cns     =daniel.cns
+st      =daniel.cns
+stcommon =common1.cns
+sprite  =daniel.sff
+anim    =daniel.air
+sound   =daniel.snd
+pal1=daniel1.act
+pal2=daniel2.act
+pal3=daniel3.act
+pal4=daniel4.act
+pal5=daniel5.act
+pal6=daniel6.act
+pal7=daniel7.act
+pal8=daniel8.act
+pal9=daniel9.act
+pal10=daniel10.act
+pal11=daniel11.act
+pal12=daniel12.act
+
+; Arcade mode
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
