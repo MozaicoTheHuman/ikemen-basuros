@@ -36,7 +36,9 @@
 	"DebugMode": true,
 	"Difficulty": 8,
 	"EscOpensMenu": true,
-	"ExternalShaders": [],
+	"ExternalShaders": [
+		"external/shaders/HQ4x"
+	],
 	"FirstRun": false,
 	"FontShaderVer": 120,
 	"ForceStageZoomin": 0,
@@ -78,7 +80,7 @@
 	"PanningRange": 30,
 	"Players": 8,
 	"PngSpriteFilter": true,
-	"PostProcessingShader": 0,
+	"PostProcessingShader": 1,
 	"QuickContinue": false,
 	"RatioAttack": [
 		0.82,
