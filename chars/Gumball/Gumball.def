@@ -1,0 +1,116 @@
+; Definition file for character
+; Contains all the filenames needed for the character
+
+;------------------------------
+;[Player Information]
+;------------------------------
+[Info]
+name = "Gumball Watterson"		;Name of character
+displayname = "Gumball"	;Name of character to display
+versiondate = 2016,07,7 	;Version date of character
+mugenversion = 1.0	;Version of M.U.G.E.N character works on
+author = "Cattigan619, MGSSJ2"		;Character author name
+pal.defaults = 1,3,6,2,4,5	;Default palettes in order of preference
+localcoord = 320,240
+
+;------------------------------
+;[Common Files] 
+;------------------------------
+[Files]
+cmd	=command.cmd
+cns	= constant.cns	;Constants
+stcommon = common1.cns	;Common states
+sprite	= sprite.sff	;Sprite
+anim	= animation.air	;Animation
+sound	= sound.snd    	;Sound
+
+;------------------------------
+;[States] 
+;------------------------------
+st	=common.cns
+st2    	= states.cns	;States
+st3	= states-s.cns	;Special Moves
+st4	= states-h.cns	;Hyper Moves
+st5	= helpers.cns	;Helpers
+;------------------------------
+;[Palettes] (can have up to 12)
+;------------------------------
+pal1	= Gumball.act		
+pal2	= Jealousy.act	
+pal3	= darwin.act		
+pal4	= anais.act		
+pal5	= Red.act			;Credit to TheWaluigiking
+pal6	= Bart.act		;Credit to TheWaluigiking
+pal7	= Ghost.act	
+pal8	= Monochrome.act	
+pal9	= oshawott.act
+pal10	= Blue.act
+pal11	= Chespin.act
+pal12	= Black.act	
+
+;---------------------------------------------------------------------------
+; Initialize (at the start of the round)
+[Statedef 5900]
+type = S
+
+[State 5900, 1] ;Clear all int variables
+type = VarRangeSet
+triggerall = Var(51) <= 0
+trigger1 = roundno = 1
+trigger1 = matchno = 1
+value = 0
+
+[State 5900, 2] ;Clear all float variables
+type = VarRangeSet
+triggerall = Var(51) <= 0
+trigger1 = roundno = 1
+trigger1 = matchno = 1
+fvalue = 0
+
+[State 5900, 3]
+type = VarSet
+triggerall = Var(51) <= 0
+triggerall = Var(55) <= 0
+trigger1 = PalNo = 1
+trigger2 = PalNo = 4
+trigger3 = PalNo = 7
+trigger4 = PalNo = 10
+var(50) = 0
+
+[State 5900, 3]
+type = VarSet
+triggerall = Var(51) <= 0
+triggerall = Var(55) <= 0
+trigger1 = PalNo = 2
+trigger2 = PalNo = 5
+trigger3 = PalNo = 8
+trigger4 = PalNo = 11
+var(50) = 1
+
+[State 5900, 3]
+type = VarSet
+triggerall = Var(51) <= 0
+triggerall = Var(55) <= 0
+trigger1 = PalNo = 3
+trigger2 = PalNo = 6
+trigger3 = PalNo = 9
+trigger4 = PalNo = 12
+var(50) = 2
+
+[State 5900, 4]
+type = VarSet
+triggerall = IsHomeTeam = 1
+trigger1 = TeamSide = 2
+trigger2 = MatchNo > 1
+var(51) = 1
+
+[state 5900, 5] ;Intro
+type = ChangeState
+trigger1 = RoundNo = 1
+trigger2 = RoundsExisted = 0
+trigger2 = TeamMode = Turns
+trigger2 = RoundNo > 1
+value = 190
+
+;---------------------------------------------------------------------------
+

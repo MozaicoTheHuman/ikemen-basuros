@@ -1,0 +1,236 @@
+[Info]
+name = "Downtown Springfield - Simpsons Arcade" ;More Animation to be added!!
+author = "SPAN"  ; ohm259@btinternet.com
+
+;--------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+boundleft = -672
+boundright = 672
+boundhigh = -200
+boundlow = 0
+verticalfollow = 0
+floortension = 0
+tension = 50
+
+
+;--------------------------------------------------------
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -2000
+rightbound =  2000
+topbound  =  0
+botbound  =  0
+
+;--------------------------------------------------------
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 15
+screenright = 15
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 210
+autoturn = 1
+resetBG = 0
+
+;--------------------------------------------------------
+[Shadow]
+intensity = 5
+yscale = 0.1
+
+;--------------------------------------------------------
+[Reflection]
+intensity = 0
+
+[Music]
+bgmusic = sound/y2meta.com - Downtown Springfield - The Simpsons Arcade (320 kbps).mp3
+bgvolume = 
+
+[BGdef]
+spr = stages/downtown_springfield.sff
+debugbg = 0
+
+
+
+[Begin Action 1]
+1,0, 0,0, 14
+1,1, 0,0, 14
+1,0, 0,0, 14
+1,1, 0,0, 14
+1,0, 0,0, 100
+
+
+
+[Begin Action 2]
+2,0, 0,0, 18
+2,1, 0,0, 18
+2,0, 0,0, 18
+2,1, 0,0, 18
+2,0, 0,0, 18
+2,1, 0,0, 18
+2,2, 0,0, 18
+2,0, 0,0, 50
+
+
+
+[Begin Action 3]
+3,0, 0,0, 20
+3,1, 0,0, 20
+3,2, 0,0, 20
+3,0, 0,0, 20
+3,1, 0,0, 20
+3,0, 0,0, 20
+3,1, 0,0, 20
+3,2, 0,0, 20
+3,0, 0,0, 20
+3,1, 0,0, 20
+3,0, 0,0, 20
+3,1, 0,0, 20
+3,0, 0,0, 20
+3,1, 0,0, 20
+3,0, 0,0, 45
+
+
+
+
+[Begin Action 4]
+4,0, 0,0, 150
+4,1, 0,0, 15
+4,2, 0,0, 15
+4,3, 0,0, 15
+4,4, 0,0, 15
+4,5, 0,0, 15
+4,6, 0,0, 450
+4,5, 0,0, 15
+4,4, 0,0, 15
+4,3, 0,0, 15
+4,2, 0,0, 15
+4,1, 0,0, 15
+
+
+[Begin Action 5]
+5,0, 0,0, 12
+5,1, 0,0, 12
+5,0, 0,0, 12
+5,1, 0,0, 12
+5,0, 0,0, 12
+5,1, 0,0, 12
+5,0, 0,0, 100
+5,2, 0,0, 9
+5,3, 0,0, 9
+5,2, 0,0, 9
+5,3, 0,0, 9
+5,2, 0,0, 9
+5,3, 0,0, 9
+5,2, 0,0, 9
+5,3, 0,0, 9
+5,2, 0,0, 9
+5,3, 0,0, 9
+
+
+;--------------------------------------------------------
+
+[BG 1] ; Background
+type = normal
+spriteno = 0,0
+layerno = 0                
+start = 0,0
+delta = 1,1
+trans = none
+mask = 0
+velocity = 0,0
+
+
+----------
+[BG 2] ; Hamster
+type = anim
+actionno = 1
+spriteno = 1,0
+start = 0,0
+tile = 0,0
+delta = 1,1
+mask = 1
+
+
+----------
+[BG 3] ; Skinner
+type = anim
+actionno = 2
+spriteno = 2,0
+start = 0,0
+tile = 0,0
+delta = 1,1
+mask = 1
+
+
+----------
+[BG 4] ; Martin
+type = anim
+actionno = 3
+spriteno = 3,0
+start = 0,0
+tile = 0,0
+delta = 1,1
+mask = 1
+
+
+----------
+[BG 5] ; Fire Station
+type = anim
+actionno = 4
+spriteno = 4,0
+start = 0,0
+tile = 0,0
+delta = 1,1
+mask = 1
+
+
+----------
+[BG 6] ; Bird
+type = anim
+actionno = 5
+spriteno = 5,0
+start = 0,0
+tile = 0,0
+delta = 1,1
+mask = 1
+
+
+;----------
+[BG 10] ; Lampost 1
+type = normal
+spriteno = 6,0
+layerno = 1
+start = 0,0
+tile = 0,0
+delta = 1,1
+mask = 1
+
+
+;----------
+[BG 2] ; Lampost 2
+type = normal
+spriteno = 7,0
+layerno = 1
+start = 0,0
+tile = 0,0
+delta = 1,1
+mask = 1
+
+

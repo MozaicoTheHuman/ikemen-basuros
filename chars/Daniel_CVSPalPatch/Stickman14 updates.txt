@@ -1,0 +1,9 @@
+Projectile command changed from c to D, DF, F, x
+
+Grab animation fixed (trust me, the hitbox should be in the first frame of the animation. Don't trust me? Check out Kung Fu Man's animations)
+
+Hitsparks for most of the supers are now in the right position
+
+SGS and other glitches fixed
+
+Acquired permission from PotS to use special effects from his characters!

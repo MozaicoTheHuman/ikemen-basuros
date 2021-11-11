@@ -1,0 +1,36 @@
+;Hanzo
+[Info]
+name="Hanzo"
+displayname="Hanzo"
+versiondate=15/08/17
+mugenversion=1.0
+author="Hanzo Santiago"
+pal.defaults=2,1,
+;Importants
+[Files]
+sprite=H.sff
+sound=H.snd
+anim=H.air
+cmd=H.cmd
+cns=H.cns
+st=H.cns
+stcommon=common1.cns
+;Palletes
+pal1=Palletes/Hanzo01.act
+pal2=Palletes/Hanzo02.act
+pal3=Palletes/Hanzo03.act
+pal4=Palletes/Hanzo04.act
+pal5=Palletes/Hanzo05.act
+pal6=Palletes/Hanzo06.act
+pal7=Palletes/Hanzo07.act
+pal8=Palletes/Hanzo08.act
+pal9=Palletes/Hanzo09.act
+pal10=Palletes/Hanzo10.act
+st1=The Black Heart.cns
+st2=Special.cns
+st3=Super.cns
+st4=FatalityJUAN.cns
+st5=LoseM.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=

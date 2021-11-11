@@ -1,0 +1,51 @@
+; --- MKTX Body Fall By Hanzo Santiago ---
+;Cage Uppercut
+[Statedef 6104];6612
+type    = S
+movetype= H
+physics = S
+ctrl = 0
+velset = 0,0
+anim = 661
+
+[State 0, EnvShake]
+type = EnvShake
+trigger1 = Anim = 661
+trigger1 = AnimTime = 0
+time = 7
+freq = 77
+
+[State 0, ChangeAnim2]
+type = ChangeAnim
+trigger1 = AnimTime = 0
+value = 701
+
+[State 0, ChangeAnim2]
+type = ChangeAnim
+trigger1 = Anim = 701
+trigger1 = Time = 135
+value = 702
+
+[State 0, ChangeAnim2]
+type = ChangeAnim
+trigger1 = Anim = 702
+trigger1 = AnimElem = 2
+value = 6611
+
+[State 0, EnvShake]
+type = EnvShake
+triggerall = Anim = 6611
+trigger1 = AnimElemTime (1) = 0
+time = 7
+freq = 77
+
+[State 0, Head]
+type = playsnd
+trigger1 = AnimElem = 3
+value = f7,1
+
+[State 0, Head]
+type = playsnd
+trigger1 = Anim = 702
+trigger1 = AnimElemTime (1) = 0
+value = f7,1

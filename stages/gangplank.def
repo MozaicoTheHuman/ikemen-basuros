@@ -1,0 +1,121 @@
+[Info]
+name = "Gangplank Galleon" 
+displayname = "Gangplank Galleon" 
+versiondate = 09,30,2009  
+mugenversion = 1.0         
+author = "Jerzy"     
+;web = http://newmwo.foroactivo.com
+
+[Camera]
+startx = 0
+starty = 0
+
+boundleft = -164
+boundright = 164
+boundhigh = 0
+boundlow = 0
+
+verticalfollow = .2
+floortension = 0
+tension = 60
+
+overdrawhigh = 0
+overdrawlow = 0
+
+cuthigh = 35
+cutlow = 25
+
+;--------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+;--- Player 2 ---
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+;--- Common ---
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+;--------------------------------------------------------
+[Scaling]
+topz     = 0
+botz     = 50
+topscale = 1
+botscale = 1.2
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 15
+screenright = 15
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 210
+autoturn = 1
+resetBG = 1
+localcoord = 320,240
+xscale = 1
+yscale = 1
+
+;--------------------------------------------------------
+[Shadow]
+intensity = 100
+color = 96,96,96
+yscale = -0.1
+fade.range = -3,-1
+
+;--------------------------------------------------------
+[Reflection]
+intensity = 0
+
+;--------------------------------------------------------
+[Music]
+bgmusic = sound/Gang Plank Galleon   Super Smash Bros Ultimate.mp3
+bgmvolume = 100
+
+[BGdef]
+spr = gangplank.sff
+debugbg = 0
+
+[BG Ocean]
+type  = normal
+spriteno = 2,0
+start = 0,145
+delta = 0.00001,1
+mask = 1
+
+[Begin action 2]
+2,0, 0,0, 8, 
+2,1, 0,0, 8, 
+2,2, 0,0, 8, 
+2,3, 0,0, 8, 
+2,4, 0,0, 8, 
+2,5, 0,0, 8, 
+2,6, 0,0, 8, 
+2,7, 0,0, 8, 
+2,8, 0,0, 8, 
+
+[BG Ship]
+type  = normal
+spriteno = 1,0
+start = 0, 240
+delta = 0.58,1
+mask = 1
+
+[BG String]
+type  = normal
+spriteno = 1,1
+start = 0, 240
+delta = 1, 1
+mask = 1
+layerno = 1
+sin.y = -5, 300, 0

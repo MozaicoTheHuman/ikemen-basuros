@@ -1,0 +1,310 @@
+; Definition of stage 0 (training stage)
+; *** denotes values you should change/check for each stage.
+; The term "background" is used to mean both backgrounds and foregrounds.
+
+;--------------------------------------------------------
+[Info]
+ ;Name of the stage.
+name = "FunInfiniteStage - VS Sonic.EXE"
+displayname = "FunInfiniteStage - VS Sonic.EXE" ;Name to display
+versiondate = 09,30,2009    ;Version date of stage (MM,DD,YYYY or X.XX)
+mugenversion = 1.1          ;Version of M.U.G.E.N stage works on (X.XX)
+author = "Gokurus"          ;https://gamebanana.com/mods/44334
+;--------------------------------------------------------
+[Camera]
+ ;Camera starting position: Usually 0 for both
+startx = 0
+starty = 0
+boundleft = -380
+boundright = 380
+boundhigh = -2
+boundlow = 0
+floortension = 200
+tensionhigh = 90
+tensionlow = -20
+tension = 200
+zoomin = 1
+zoomout = .67
+overdrawhigh = 120
+overdrawlow = 120
+cuthigh = 35
+cutlow = 25
+
+;--------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+ ;Player 1 starting coordinates.
+p1startx = -350         ;Starting x coordinates
+p1starty = 0            ;Starting y coordinates
+p1facing = 1            ;Direction player faces: 1=right, -1=left
+
+;--- Player 2 ---
+p2startx = 350
+p2starty = 0
+p2facing = -1
+
+;--- Player 3 ---
+p3startx = -525
+p3starty = 0
+p3facing = 1
+
+;--- Player 4 ---
+p4startx = 525
+p4starty = 0
+p4facing = -1
+
+;--- Common ---
+leftbound  = -4000 ;Left bound (x-movement)
+rightbound =  4000 ;Right bound
+
+;--------------------------------------------------------
+[Bound]
+ ;Distance from left/right edge of screen that player can move to
+ ;Typically 15
+screenleft = 53    ;Dist from left of screen that player can move to
+screenright = 53   ;Right edge
+
+;--------------------------------------------------------
+[StageInfo]
+ ;"Ground" level where players stand at, measured in pixels from the
+ ;top of the screen.
+ ;Adjust this value to move the ground level up/down in the screen.
+ ;***
+zoffset = 660
+autoturn = 1
+resetBG = 1
+localcoord = 1280, 720
+xscale = 1.04
+yscale = 1.04
+
+;--------------------------------------------------------
+[Shadow]
+ ;This is the shadow darkening intensity. Valid values range from
+ ;0 (lightest) to 256 (darkest). Defaults to 128 if omitted.
+intensity = 19
+color = 0,0,0
+yscale = .18
+
+;--------------------------------------------------------
+[Reflection]
+ ;Intensity of reflection (from 0 to 256). Set to 0 to have no
+ ;reflection. Defaults to 0.
+intensity = 0
+
+;--------------------------------------------------------
+[Music]
+ ;Put a filename for a MOD, MP3 or MIDI here, or just leave it
+ ;blank if you don't want music. If an invalid filename is
+ ;given, then no music will play. To play CD audio, put
+ ;the track number followed by ".da". Using a track number of
+ ;0 will play a random audio track. For example, to play
+ ;track 3 from a music CD, use:
+ ;  bgmusic = 3.da
+bgmusic = sound/EndlessMajinOnly.mp3
+
+;bgmloopstart = <sample number>
+;bgmloopend = <sample number>
+
+ ;Adjust the volume. 100 is for 100%.
+bgmvolume = 100
+
+;========================================================
+;--------------------------------------------------------
+; Background definition
+; ***
+;-------------------------------------
+; [BG x]
+; type = ?       "Normal"/"Parallax"  (def: "normal")
+; spriteno = ?, ? Sprite group and number: groupno, imgno  (req'd)
+; start = ?, ?   Starting location (integer)  (def: 0, 0)
+; delta = ?, ?   Change in location per camera unit moved (float)  (def: 1,1)
+; trans = ?      Transparency settings: "none"/"add"/"add1"/"sub"" (def: "none")
+; mask = ?       Masking (int): 0 - off, 1 - on  (def: 0)
+; velocity = ?, ? Velocity: x, y (float): speed background moves (def: 0, 0)
+; tile = ?, ?    Tiling: xtile, ytile (int): 0 - off, 1 - infinite,
+;                        >1 - tile that number of times  (def: 0, 0) - only for Normal BG
+; tilespacing = ?, ? Tiling: x, y (int) : space between tiles (def: 0, 0)
+;  Parallax-only:
+; xscale = ?, ?    Top xscale, bottom xscale (float)
+; width = ?, ?     Top width, bottom width (int)  (use either this or above, but not both)
+; yscalestart = ?  Starting y-scale (float, in percent)  (def: 100)
+; yscaledelta = ?  Change in y-scale per unit (float, in percent)  (def: 0)
+;-------------------------------------
+
+;-------------------------------------
+; Main background definition
+[BGdef]
+ ;Filename of sprite data
+spr = FridayNightFunkinFunInfiniteStage.sff
+
+ ;Set to 1 if you want to clear the screen to magenta before
+ ;drawing layer 0 (the default background). Good for spotting "holes"
+ ;in your background.
+ ;Remember to turn this off when you are done debugging the background,
+ ;because it slows down performance.
+debugbg = 0
+
+
+;----------
+; Start each background element with the following:
+; Make sure it's "[BG n]", where n is anything you like (it's only used to
+; report errors.) For example, you could use:  [BG TheFloor]
+; Specify as many as you like. This is an example of a normal background:
+[BG 0]
+type  = normal
+spriteno = 0, 0
+layerno = 0
+start = 0, -50
+delta = .35, .35
+trans = none
+mask  = 1
+tilespacing = 0,0
+zoomdelta = .36
+[BG 0]
+type  = normal
+spriteno = 1, 0
+layerno = 0
+start = 0, -50
+delta = .35, .35
+trans = none
+mask  = 1
+tilespacing = 0,0
+zoomdelta = .36
+[BG 0]
+type  = normal
+spriteno = 4, 0
+layerno = 0
+start = 0, -50
+delta = .99, .99
+trans = none
+mask  = 1
+tilespacing = 0,0
+zoomdelta = .99
+[BG 0]
+type  = normal
+spriteno = 2, 0
+layerno = 0
+start = 0, -50
+delta = .85, .85
+trans = none
+mask  = 1
+tilespacing = 0,0
+zoomdelta = .89
+[BG 0]
+type  = normal
+spriteno = 3, 0
+layerno = 0
+start = 0, -50
+delta = .89, .89
+trans = none
+mask  = 1
+tilespacing = 0,0
+zoomdelta = .92
+[BG 0]
+type  = anim
+actionno = 5
+layerno = 0
+start = 0, -50
+delta = .99, .99
+trans = none
+mask  = 1
+tilespacing = 0,0
+zoomdelta = .999
+[BG 0]
+type  = anim
+actionno = 8
+layerno = 0
+start = -425, 550
+delta = .95, .95
+trans = none
+mask  = 1
+tilespacing = 0,0
+zoomdelta = .95
+[BG 0]
+type  = anim
+actionno = 9
+layerno = 0
+start = 290, 575
+delta = .95, .95
+trans = none
+mask  = 1
+tilespacing = 0,0
+zoomdelta = .95
+ ;This defines the drawing space, or "window" of the background. It's
+ ;given in the form
+ ;x1,y1, x2,y2
+ ;where (x1,y1)-(x2,y2) define a rectangular box.
+ ;Make the window smaller if you only want to draw part of the background.
+ ;You normally do not have to change this setting. Value values range from
+ ;0-319 for x, and 0-239 for y. The values are 0,0, 319,239 by default (full
+ ;screen).
+ ;Uncomment the line below to use it:
+;window = 0,0, 1279, 719
+
+ ;Similar to the delta parameter, this one affects the movement of
+ ;the window. Defaults to 0,0
+ ;Uncomment the line below to use it:
+;windowdelta = 0,0
+
+
+[Begin Action 5]
+5,0, 0,0, 2
+5,1, 0,0, 2
+5,2, 0,0, 2
+5,3, 0,0, 2
+5,4, 0,0, 2
+5,5, 0,0, 2
+5,6, 0,0, 2
+5,7, 0,0, 2
+5,8, 0,0, 2
+
+[Begin Action 8]
+8,0, 0,0, 2
+8,1, 0,0, 2
+8,2, 0,0, 2
+8,3, 0,0, 2
+8,4, 0,0, 2
+8,5, 0,0, 2
+8,6, 0,0, 2
+8,7, 0,0, 2
+8,7, 0,0, 2
+
+[Begin Action 9]
+9,0, 0,0, 2
+9,0, 0,0, 2
+9,1, 0,0, 2
+9,1, 0,0, 2
+9,2, 0,0, 2
+9,2, 0,0, 2
+9,3, 0,0, 2
+9,3, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+9,4, 0,0, 2
+
+[Begin Action 10]
+10,0, 0,0, 2
+10,0, 0,0, 2
+10,1, 0,0, 2
+10,1, 0,0, 2
+10,2, 0,0, 2
+10,2, 0,0, 2
+10,3, 0,0, 2
+10,3, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
+10,4, 0,0, 2
