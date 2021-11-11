@@ -1,0 +1,165 @@
+==================================================================================
+**********************************************************************************
+
+  PINGU - "Original" M.U.G.E.N. Character made by mulambø 10/09/2005 - 15/10/2005
+
+	    http://www.orimuga.altervista.org - mulambo_mc@hotmail.com
+
+**********************************************************************************
+==================================================================================
+
+                                  !!ATTENZIONE!!
+
+NON DISTRIBUITE QUESTO PERSONAGGIO SENZA LA MIA SPECIFICA AUTORIZZAZIONE. SE 
+PROPRIO CI TENETE, POTETE EDITARE IL PERSONAGGIO MA, PERFAVORE, USATELO SOLO PER 
+CONTO VOSTRO, NON DISTRIBUITELO IN UNA VERSIONE MODIFICATA A MENO CHE NON VE LO 
+PERMETTA, PREVIA NECESSARIA RICHIESTA. (insomma, vi sto solo dicendo di essere 
+rispettosi nei confronti miei e del mio lavoro, credo che sia comprensibile, no?
+;) )
+
+
+==================================================================================
+
+                		     INFOS
+
+Ciao! 
+Iniziamo col dire che questo personaggino non e' poi cosi' "originale". Nonostante
+gli sprites da me creati siano originali, il personaggio vero e proprio di Pingu
+e' un'idea scaturita dalla mente di Aldo Mazzola, il suo legittimo proprietario e 
+creatore della serie del famoso pinguino di plastilina nonche' la persona alla quale 
+questa sorta di modesta "fan-art" e' dedicata. Questo personaggio e' inoltre un 
+regalo a tutti i fan di Pingu nel mondo e una lode all'infazia stessa.
+Mi ci e' voluto circa un mese e mezzo per crearlo ma spero comunque che vi piaccia. ^_^
+
+                           WINMUGEN MP3 PLUGIN PROBLEM
+
+Una volta convertito il char per WinMugen, affinche' funzionasse correttamente
+anche in questa piattaforma, l'ho testato e sembrava funzionare correttamente.
+L'unico difetto che sembra permanere e' quello relativo alle tracce audio (.mp3)
+che dovrebbero essere riprodotte durante le sequenze iniziali e finali del char
+in modalita' Arcade ma che, invece, non vengono riprodotte o vengono riprodotte
+in maniera errata, forse, a causa di problemi legati ai plugins che WinMugen sup-
+porta. Prego coloro che hanno particolari competenze in merito di porgere il loro
+aiuto in merito. ;)
+
+
+                               THE CREDITS CORNER
+
+Grafica (sprites originali + proiettili)  : mulambø (+ altri effetti grafici rippati da altri giochi)
+Sounds (voce di Pingu + altri)            : episodi originali della serie PINGU (+ altri rippati da altri giochi)
+Programmazione                            : mulambø 
+Tracce Sonore  (sequenze)                 : episodi originali della serie PINGU 
+                                            "Eve of the Apocalypse" - Malevolent Creation
+                                            "Descendo" - The Smashing Pumpkins
+Betatester                                : SlayerGatsu
+
+                                  SPECIAL THANX
+
+Mugenation, l'Italian Mugen Community, Elphizo e chiunque altro mi sia stato d'aiuto 
+(sapete chi siete! ;) )
+
+
+==================================================================================
+**********************************************************************************
+
+                                   PUB-BLI-CI-TA'!
+
+Se siete interessati nella creazione di un gioco originale per M.U.G.E.N. (es.:sie-
+te in grado di creare personaggi originali, effetti grafici/sonori, e quant'altro) 
+visitate il sito:
+
+                               http://www.orimuga.altervista.org
+
+
+Diventa parte integrante del progetto dell'Orimuga Team! Piu' siamo meglio e'! ;)
+
+**********************************************************************************
+==================================================================================
+
+
+				   LISTA DEI COMANDI
+
+a = a button
+b = b button
+c = c button
+x = x button
+y = y button
+z = z button
+(ovvio...)
+s = start button 
+
+F = forward button
+B = backward button
+D = down button
+U = up button
+DF = down-forward button
+DB = down-backward button
+
+~*button* = hold *button* for a while
+
+
+----------------------------------------------------------------------------------
+
+NORMAL MOVES
+
+
+a = standing / crouching / air weak kick
+b = standing / crouching / air strong kick
+x = standing / crouching / air weak head
+y = standing / crouching / air strong head
+x+y = power charge
+a+x/z = dodge
+s = meck-meck taunt
+F,F = running
+B,B = step back
+
+
+SPECIAL MOVES
+
+
+D,DF,F+x = Weak Meck-meck Attack!
+D,DF,F+y = Strong Meck-meck Attack!
+********
+D,DB,B+x = SnowBall
+D,DB,B+y = Double SnowBall
+********
+F,D,DF+x = Weak Pinguken
+F,D,DF+y = Strong Pinguken
+********
+~B,F+a = Weak PinguBall
+~B,F+b = Strong PinguBall
+********
+D,DF,F+a = Weak PinguBall (in air)
+D,DF,F+b = Strong PinguBall (in air)
+********
+D,DB,B+a = Weak Tatsumaki-pingu-kyaku
+D,DB,B+b = Strong Tatsumaki-pingu-kyaku
+
+
+HYPER MOVES
+
+
+D,DF,F,D,DF,F+x = Weak Hyper Meck-meck Attack! (level 1)
+D,DF,F,D,DF,F+y = Strong Hyper Meck-meck Attack! (level 2)
+********
+D,DB,B,D,DB,B+x = Snow-Mitra (level 1)
+D,DB,B,D,DB,B+y = Snow-Cannon (level 2)
+********
+~B,F,B,F+a = Triple PinguBall (level 1)
+~B,F,B,F+b = Robby-Ball Combined Attack (level 2)
+********
+D,DB,B,D,DB,B+a = Hyper Tatsumaki-pingu-kyaku (level 1)
+D,DB,B,D,DB,B+b = Robby Tatsumaki-pingu-kyaku (level 2)
+********
+D,DF,F,D,DF,F+a+b = Pin-Goku-Satsu (level 3) (mossa fatale)
+D,DB,B,D,DF,F+x+y = Super Scary Attack! (level 3) (mossa fatale) (devi aver meta' di energia vitale per eseguire questa mossa)
+                    (trucchetto: se premete y nello stesso momento in cui l'attacco viene lanciato -dovrete essere molto fortunati-
+                     riceverete un danno "minimo".)
+
+
+---------------------------------------------------------------------------------------
+
+a questo punto non mi resta altro che augurarvi BUON DIVERTIMENTO! ^_^
+
+
+                           

@@ -1,0 +1,145 @@
+Español:
+---------
+En esta nota te dare las intrucciones de mis movimientos especiales y hypers, asi como su descripciones
+Espero que lo disfruten!
+
+Especiales:
+-------------
+
+Bola de hielo: D,DF,F, cualquier patada
+----------------------------------------------
+Hieloso chasquea y genera una bola de hielo que tiene gravedad.
+Puedes generar hasta 3, o cuando el oponente no esta congelado.
+Este movimiento se hace tanto en suelo como en aire.
+----------------------------------------------
+
+SuperUppercut: D,DF,F, cualquier puño
+---------------------------------------------
+Hieloso por alguna razon genera este movimiento que lanza al enemigo arriba.
+---------------------------------------------
+
+Mazo de hielo: B,F, cualquier puño
+---------------------------------------------
+Hieloso genera en su brazo un mazo de hielo y golpea al enemigo con mucha fuerza.
+Solo se puede hacer en el suelo. Este fue inspirado en el personaje de Marvel Comics, Sand-Man
+---------------------------------------------
+
+Puño congelado: D,DB,B, cualquier patada
+-----------------------------------------------
+Hieloso se lanza hacia el oponente con un puño de hielo que hace mismo daño que su mazo.
+Este movimiento se hace tanto en suelo como en aire.
+-----------------------------------------------
+
+Puño de hielo: D,DB,B, cualquier puño
+-------------------------------------------
+Hieloso se agacha y con su puño genera un puño de hielo adelante suyo.
+Solo se puede hacer en el suelo. Recomendable si el enemigo se esta aproximando
+-------------------------------------------
+
+Hypers:
+---------
+
+MultiPuños (nivel 1): D,DF,F, dos puños
+--------------------------------------------
+Hieloso ira hacia el enemigo y usara todos sus puños.
+Al final usara su mazo. El movimiento solo tendra efectivo si el oponente no esquiva tu ataque
+--------------------------------------------
+
+Mano GIGANTE (nivel 1): D,DF,F, dos patadas
+------------------------------------------------
+Hieloso genera una mano gigante para atraparte.
+Si te atrapa, te lanzara al suelo!
+------------------------------------------------
+
+Clones de Hielo (nivel 2): D,DB,B, dos patadas
+-----------------------------------------------------
+Hieloso lanza una bola de hielo y se genera muchos humanoides enanos de hielo (sin explicacion alguna. Osea solo lanzo una bola).
+Hieloso señalara quien es el oponente y ellos iran hacia el/ella.
+-----------------------------------------------------
+
+ONDA GLACIAL (nivel 2): D,DB,B, dos puños
+----------------------------------------------------
+Hieloso lanza una onda de hielo puro. Este hace caer al oponente.
+----------------------------------------------------
+
+¡BLOQUE DE HIELO! (nivel 3): D,DF,F,D,DB,B,un puño y una patada.
+------------------------------------------------------------------------------
+Hieloso lanzara un bloque de hielo desde arriba. Si este choca con el oponente cuando tiene poca vida, Hieloso hara una serie de combos y despues lo golpeara
+------------------------------------------------------------------------------
+
+AMALGAM DE CHASE Y SANTIAGO (nivel 3) D,DB,B,D,DF,F,un puño y una patada.
+------------------------------------------------------------------------------------------------
+Hieloso llama a Chase Fowler para poder fusionarse. Da vueltas y dispara bolas de hielo.
+------------------------------------------------------------------------------------------------
+
+English:
+---------
+In this note I will give you the instructions of my special movements and hypers, as well as their descriptions
+I hope you enjoy!
+
+Specials:
+-------------
+
+Ice ball: D, DF, F, any kick
+----------------------------------------------
+Icy snaps and generates a ball of ice that has gravity.
+You can spawn up to 3, or when the opponent is not frozen.
+This movement is done both on the ground and in the air.
+----------------------------------------------
+SuperUppercut: D, DF, F, any fist
+---------------------------------------------
+Icy for some reason it generates this movement that throws the enemy up.
+---------------------------------------------
+
+Ice mallet: B, F, any fist
+---------------------------------------------
+Icy generates an ice mallet in his arm and hits the enemy with great force.
+It can only be done on the ground. This one was inspired by the Marvel Comics character, Sand-Man
+---------------------------------------------
+
+Frozen fist: D, DB, B, any kick
+-----------------------------------------------
+Icy lunges at the opponent with an ice fist that deals the same damage as his mallet.
+This movement is done both on the ground and in the air.
+-----------------------------------------------
+
+Ice fist: D, DB, B, any fist
+-------------------------------------------
+Icy crouches down and generates a fist of ice in front of him with his fist.
+It can only be done on the ground. Recommended if the enemy is approaching
+-------------------------------------------
+
+Hypers:
+---------
+
+Multi-Grips (level 1): D, DF, F, two grips
+--------------------------------------------
+Icy will go towards the enemy and use all his fists.
+In the end he will use his mallet. The movement will only be effective if the opponent does not dodge your attack
+--------------------------------------------
+GIANT hand (level 1): D, DF, F, two kicks
+------------------------------------------------
+Icy spawns a giant hand to catch you.
+If it catches you, it will throw you to the ground!
+------------------------------------------------
+
+Ice Clones (level 2): ​​D, DB, B, two kicks
+-------------------------------------------------- ---
+Icy throws an ice ball and spawns many ice dwarf humanoids (no explanation. I mean, he just threw a ball).
+Icy will point out who the opponent is and they will go to him / her.
+-------------------------------------------------- ---
+
+GLACIAL WAVE (level 2): ​​D, DB, B, two fists
+-------------------------------------------------- -
+Icy launches a wave of pure ice. This makes the opponent fall.
+-------------------------------------------------- -
+
+BLOCK OF ICE! (level 3): D, DF, F, D, DB, B, a punch and a kick.
+-------------------------------------------------- ----------------------------
+Icy will launch a block of ice from above. If he collides with the opponent when he is low on life, Icy will do a series of combos and then punch him!
+-------------------------------------------------- ----------------------------
+
+CHASE AND SANTIAGO AMALGAM (level 3): D, DF, F, D, DB, B, a punch and a kick.
+----------------------------------------------------------------------------------------------------
+Icy call Chase Fowler so he can merge. Spin around and shoot ice balls.
+----------------------------------------------------------------------------------------------------

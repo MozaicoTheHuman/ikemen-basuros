@@ -1,0 +1,49 @@
+;=============================================================================
+;Oh wow, a configuration mode.
+;=============================================================================
+;Turn Cheap Mode on?
+;=============================================================================
+;Normally, cheap mode is only reserved for adult characters because why would
+;you want to pit Robbie Rotten, a character for a kids show that exists IRL
+;against, a character for the sole purpose for you to fap to?
+;In any case, you can have fun with this if you choose to turn it on.
+;CONFIGURE! ^^/ - Len1million
+
+[Statedef 5900]
+type = U
+
+[State -3, lel]
+Type = VarSet
+Trigger1 = RoundState = 0
+trigger2 = roundsexisted = 0
+v = 11
+value = 0;Default is 0
+         ;A positive number will enable cheap mode.
+;=============================================================================
+;Start with how much Power?
+;=============================================================================
+[State -3, lel]
+Type = PowerSet
+Trigger1 = RoundState = 0 && roundsexisted = 0
+value = 0;Default is 0
+         ;Enter a number from 0 to 3000, any number higher than 3000 will be
+         ;set back to 3000, so you can't do a lame joke and put 6969 or
+         ;something like that. 69 is fine though - Len1million
+
+
+
+;[State 5900, 1] ;Clear all int variables
+;type = VarRangeSet
+;trigger1 = roundsexisted = 0
+;value = 0
+
+;[State 5900, 2] ;Clear all float variables
+;type = VarRangeSet
+;trigger1 = roundsexisted = 0
+;fvalue = 0
+
+[State 5900, 3] ;Intro for round 1
+type = ChangeState
+trigger1 = roundno = 1
+value = 190
+

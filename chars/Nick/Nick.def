@@ -1,0 +1,26 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Nick_Hooper"
+displayname = "Nick Hooper"
+versiondate = 2/28/2012
+mugenversion = 14,04,2002
+author = "DarkDonald1"
+pal.defaults = 1
+
+[Files]
+sprite = Nick.sff
+anim = Nick.air
+sound = Nick.snd
+cmd = Nick.cmd
+cns = Nick.cns
+stcommon = common1.cns
+st = Nick.cns
+pal1 = Nick.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

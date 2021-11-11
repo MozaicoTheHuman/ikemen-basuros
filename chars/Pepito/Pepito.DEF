@@ -1,0 +1,30 @@
+; Pepito and other characters shown were created by Gabriel Tellez jr. (a.k.a Quetzalcoatl_88)
+;and therefore the direct intellectual property of the creator, which is me.
+
+
+; released on 12-25-2006
+
+
+; Character information
+[Info]
+name    = "Pepito by Quetzalcoatl_88"
+displayname = "Pepito"
+mugenversion = 06, 14, 2003    ;worked on him with winmugen, so DOS version may or may not work
+versiondate = 12, 25, 2006 ;Merry Christmas!
+author = "Quetzalcoatl_88"
+
+[Files]
+cmd     = Pepito.cmd     ;Command set
+cns     = Pepito.cns     ;Constants
+st      = Pepito.cns     ;States
+stcommon = common1.cns   ;Common states
+sprite  = Pepito.sff     ;Sprite
+anim    = Pepito.air     ;Animation
+sound   = pepito.snd   ;Sound
+pal1    = ex1.act
+pal2    = ex2.act
+pal3    = ex3.act
+pal4    = ex5.act
+pal5    = equipo_america.act
+pal6    = equipo_chivas.act
+pal7    = ex4.act

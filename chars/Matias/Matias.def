@@ -1,0 +1,36 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Matias Ariel Zurita"
+displayname ="Matias Zurita"
+versiondate =15.07.2010
+mugenversion =14,04,2001
+author ="Matydel42008"
+pal.defaults =1,9 ,3,4,5,6
+
+[Files]
+sprite =Media\Matias.sff
+anim =Media\Matias.air
+sound =Media\Matias.snd
+cmd =Coding\Matias.cmd
+cns =Coding\Matias.cns
+stcommon =common1.cns
+st =Coding\Matias.cns
+pal1=Colors\Pal_1.act
+pal2=Colors\Pal_Boca_Juniors.act
+pal3=Colors\Pal_NS.act
+pal4=Colors\Pal_Dark.act
+pal5=Colors\Pal_2.act
+pal6=Colors\Pal_3.act
+pal7=Colors\Pal_4.act
+pal8=Colors\Pal_5.act
+pal9=Colors\Pal_Armando_Villanueva.act
+pal10=Colors\Pal_7.act
+pal11=Colors\Pal_7.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

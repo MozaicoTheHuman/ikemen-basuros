@@ -1,0 +1,41 @@
+;***************************************************************************;
+;*******************     Created in Fighter Factory 3    *******************;
+;*******************    Who did you expect Sportaflop?   *******************;
+;***************************************************************************;
+
+[Info]
+name = "Robbie Rotten"
+displayname = "Robbie Rotten"
+versiondate = 4/22/17
+mugenversion = ;1.0 Only i guess... but it also works for winmugen
+author = "Pingurules (edit) and Pizzasause (also edited)"
+pal.defaults = 1
+
+[Files]
+sprite = robbie rotten.sff
+anim = robbie rotten.air
+sound = robbie rotten.snd
+cmd = robbie rotten.cmd
+cns = robbie rotten.cns
+stcommon = common1.cns
+st = robbie rotten.cns
+st1 = specials.st
+st2 = supers.st
+st3 = basics.st
+st4 = configuration.txt
+st9 = AI.cns
+pal1 = rotten.act
+pal2 = Red.act
+pal3 = Pink.act
+pal4 = Blue.act
+pal5 = Green.act
+pal6 = Yellow.act
+pal7 = Aqua.act
+pal8 = FrankFresh.act
+;Fun Fact Those Palettes 1 through 7 are from this
+;https://wookie13.deviantart.com/art/Lazytown-Sins-655173716
+;While the 8th Palette is the Opposite day meme of Robbie Rotten
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
