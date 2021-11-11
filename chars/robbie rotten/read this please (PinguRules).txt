@@ -1,0 +1,218 @@
+=======================
+     Robbie Rotten
+=======================
+version 1.0 (EDITED)
+By Pingurules
+
+-------------------
+
+1.Contents(the thing you are reading right now)
+2.Story
+3.Movelist
+4.Q & A
+5.Thanks and No Thanks
+6.Spoilers
+
+-------------------
+====================================================
+=======================Story======================== 
+====================================================
+So this thing is a spriteswap of a mediocre character
+and the CLSNs are more messed up than Josh Geary
+I had to get this thing fixed and balanced
+Many flaws are still present, but the most demanding ones are gone
+
+I also added a few moves and a English voicepack with voices taken from the music videos
+
+
+Sportacus and Lazytown citizens move to MUGEN for vacation to watch and participate in the tournament.
+Seeing everyone so active triggered Robbie Rotten like a tumblr SJW,
+and he became determined to knock everyone so silly
+so they'll have no choice but to recuperate and therefore not move, becoming lazy.
+
+...That's the best story I can think of...\
+
+Profile!
+
+Name:Robbie Rotten (ENG)/Glanni Glæpur (ICE)
+
+Actor: Stefán Karl Stefánsson
+
+Homeland: Lazytown
+
+Likes: Being lazy, junk food, Old Lazytown
+
+Dislikes: Sportaflop, being active, sports candy
+
+Ability: Very smart, invented various tools, is the Master of Disguise
+
+Base TV Show:
+Lazytown
+
+Main character appearances:
+1. Lazytown TV show
+2. Icelandic Lazytown plays
+3. Internet Memes (Does this count? >_>)
+
+====================================================
+=============The big fat movelist page==============
+====================================================
+
+Specials:
+
+v > kick = Sugar Apple (the one that knocked Sportacus out, I believe)
+
+No damage, but the main use for it is to reduce opponents' power, and allow yourself to get into a combo.
+As what Robbie Rotten calls it, a "sugar meltdown". Made with the Candy Faker Maker 3000.
+
+v < kick = Lair Lever
+
+Has a long windup time, but you're very safe when you use this move. This is a torture to program.
+
+< (for a while) > x = Cake
+< (for a while) > y = Cake with a shocker
+< (for a while) > x+y = Cake with explosives
+
+Robbie Rotten's favourite food. He'll eat cake with sand in it without second thoughts.
+
+Supers (1000 power):
+
+v > 2punch = Junk Food
+
+Generic DC Template super.
+
+v < 2punch = Disguise as Sportacus
+
+Sportacus loves moving...right?
+
+v > 2kick = Diabetes
+
+I mean like seriously
+
+v < 2kick = Disguise as T Rex
+
+"Don't let your children watch it!"
+
+Supers (3000 power): ;to be implemented
+
+< > < > 2punch = You are a Pirate
+
+Inspiration from a certain terrible character made from a certain terrible author...
+
+< > < > 2kick = Cannon Fire
+
+"shoot him out of town like a circus clown" indeed.
+
+====================================================
+======================Q and A=======================
+====================================================
+
+Q: What is this "configuration" file?
+A: This lets you change a few things about Robbie without having to know any coding experience prior!
+   Just open it and do what it tells you to, and you should be fine.
+
+Q: I heard Stefan has cancer! I want to donate, where can I help?!
+A: Good news, he's CURED of cancer and now he needs the money to recover and heal, the original goal was 50k
+   but it was raised to 75k, then 100k to enourage more donations. Nevertheless, donators prevailed and now it's over
+   100,000!!!111!!11
+
+Q: What 100,000?! There's no way that could be right!
+A: See for yourself:
+   Donate if you want to. I recommend doing so. :)
+   https://www.gofundme.com/2tm9tqk
+
+Q: Did you donate?
+A: Not old enough to :(
+
+Q: OMG NOT ENOUGH MAY MAYS!
+A: This Robbie isn't supposed to be based off only the We are Number One music video, there are other things there too.
+
+Q: WHY ARE THE CLSNS SO FOKING CRAZILY OFF U HALFBUTTING CANT?!?!???!?!?!?!!/11/1 raeg!!1111
+A: I guess you could say I was...lazy. LOLOLOOLLOLOLOL-*shot*
+   In all seriousness, I *detest* CLSNs and I can't be bothered to do it, so I just made one CLSN box
+   and made sure it's approximately covering most of the parts in one section so it would work fair enough.
+   If you want to update the CLSNs, please do. I would appreciate it. (Some like the cannon and the ship are intended tho)
+
+Q: Thanks
+A: You're welcome
+
+Q: I came from FourthRhyme's channel since I saw your comment, and I prefer him and his memes though
+A: I hate you, please die in the most painful way imaginable
+
+
+
+
+
+   ...jk lol it's cool, each to their own, i'm not offended
+
+
+====================================================
+===============Thanks and No Thanks=================
+====================================================
+-Thanks-
+
+God: For our talents and lives.
+
+Family and friends: I mean, this is obligatory
+
+Stefan Karl: Thank you for helping children, now it's our turn to help you by raising awareness and/or donating.
+
+Magnús Scheving: Thank you for helping children too. May you and Stefan live a wonderful life.
+
+The other people who participated in the making of Lazytown: This show is great. Thank you all.
+
+Mugenfan6: You may have left the internet, but you'll live on in my heart as the one piece of proof I have that
+           people can change.
+
+Lightningdood: Those dA points are well appreciated, my buddy. Nice guy to hang out with.
+
+TaurmegaTyrant: Someone to talk to when I feel like jumping off a building or thrusting a knife in my chest
+                ...don't judge me please
+
+Mobian-Storyteller: My first dA friend. While we're not much anymore, he sort of introduced me to dA. Thanks.
+
+Shazam7121: My first YT sub and friend. I don't see him much anymore though. But thanks, you Filipino dude :)
+
+Many others I can't remember as of writing this
+
+And you for using my character
+
+-No Thanks-
+Satan: This should be obvious
+
+Toby Fox: I really, really don't like your game. At all. Not one little bit.
+          Stay nice, though. (Dunno if I should make a "neutral" list for him? :L)
+
+The Undertale fanboys: You know how it is. The negative ones stand out the most. For Undertale, they REALLY stand out.
+
+====================================================
+======================Spoilers======================
+====================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+he has a special intro against sportacus and himself
