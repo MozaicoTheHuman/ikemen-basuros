@@ -36,7 +36,7 @@ localcoord = 1280,720     ;Local coordinate space width and height (new in MUGEN
 ;    ~/mugen/system.sff.
 
 [Files]
-spr = ../mugen1/system.sff          ;Filename of sprite data
+spr = system.sff          ;Filename of sprite data
 snd = system.snd          ;Filename of sound data
 logo.storyboard =         ;Logo storyboard definition (optional)
 intro.storyboard =        ;Intro storyboard definition (optional)
