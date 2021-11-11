@@ -1,9 +1,0 @@
-.\external\script\storyboard.lua:118: <game end>
-stack traceback:
-	[G]: in function 'refresh'
-	.\external\script\storyboard.lua:118: in function 'f_play'
-	.\external\script\storyboard.lua:431: in function 'f_storyboard'
-	external/script/main.lua:3637: in function 'f'
-	external/script/main.lua:3019: in function 'loop'
-	external/script/main.lua:4081: in main chunk
-	[G]: ?

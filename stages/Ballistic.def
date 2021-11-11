@@ -1,0 +1,128 @@
+[Info]
+name 		= "Say goodbye to your fingers."
+displayname 	= "Ballistic (Bonus Week)"
+versiondate 	= 03,07,2021
+mugenversion 	= 1.0
+author 		= "Oliver As Latias"
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -640
+boundright 	= 640
+boundhigh 	= -152
+boundlow 	= 0
+tension 	= 200
+verticalfollow 	= .75
+floortension 	= 400
+overdrawhigh 	= 120
+overdrawlow 	= 120
+cuthigh 	= 0
+cutlow 		= 0
+
+[PlayerInfo]
+p1startx 	= -280
+p1starty 	= 0
+p1facing 	= 1
+p2startx 	= 280
+p2starty 	= 0
+p2facing 	= -1
+p3startx 	= -400
+p3starty 	= 0
+p3facing 	= 1
+p4startx 	= 400
+p4starty 	= 0
+p4facing 	= -1
+leftbound 	= -4000
+rightbound 	= 4000
+
+[Bound]
+screenleft 	= 60
+screenright 	= 60
+
+[StageInfo]
+zoffset 	= 856.0
+autoturn 	= 1
+resetBG 	= 0
+localcoord 	= 1280, 960
+xscale 		= 1
+yscale 		= 1
+
+[Scaling]
+topz     	= 0
+botz     	= 50
+topscale 	= 1
+botscale 	= 1.2
+
+[Shadow]
+color 		= 0,0,0
+yscale 		= 0
+
+[Music]
+bgmusic 	= sound/Ballistic.ogg
+bgvolume 	= 255
+
+[BGdef]
+spr 		= stages/Ballistic.sff
+debugbg 	= 0
+
+[BG Stage]
+type  		= anim
+actionno 	= 1
+start 		= 0,-152
+delta 		= 1,1
+mask 		= 1
+
+[BG Whitty]
+type  		= anim
+actionno 	= 10
+start 		= 0,-152
+delta 		= 1,1
+mask 		= 1
+
+[BG BF]
+type  		= anim
+actionno 	= 11
+start 		= 0,-152
+delta 		= 1,1
+mask 		= 1
+
+[BG GF]
+type  		= anim
+actionno 	= 12
+start 		= 0,-152
+delta 		= 1,1
+mask 		= 1
+
+
+; Stage
+[Begin Action 1]
+0,0, 0,0, 7
+0,1, 0,0, 7
+0,2, 0,0, 7
+0,3, 0,0, 7
+
+
+; Whitty gone crazy
+[Begin Action 10]
+10,0, 0,0, 4
+10,1, 0,0, 4
+10,2, 0,0, 4
+10,3, 0,0, 4
+10,4, 0,0, 4
+10,5, 0,0, 4
+10,6, 0,0, 4
+10,7, 0,0, 4
+
+; Boyfriend
+[Begin Action 11]
+11,0, 0,0, 3
+11,1, 0,0, 3
+
+; Girlfriend
+[Begin Action 12]
+12,0, 0,0, 2
+12,1, 0,0, 2
+12,2, 0,0, 2
+12,3, 0,0, 2
+

@@ -1,0 +1,134 @@
+[Info]
+name = "SSBWIIU_MIDGAR"
+displayname = "Midgar" ;Name to display
+versiondate = 09,30,2009  	     ;Version date of stage (MM,DD,YYYY or X.XX)
+mugenversion = 1.1                   ;Version of M.U.G.E.N stage works on (X.XX)
+author = "PabloSSB aka Mr. Schllyay" ;Stage author name
+
+[Camera]
+startx 		= 0
+starty 		= 0
+boundleft 	= -420
+boundright 	= 420
+boundhigh 	= -2500
+boundlow 	= 0
+tension 	= 450
+verticalfollow 	= .95
+floortension 	= 200
+overdrawhigh 	= 120
+overdrawlow 	= 120
+cuthigh 	= 0
+cutlow 		= 0
+tensionhigh = 480
+tensionlow = -20
+zoomin = 1
+zoomout = .65
+
+[PlayerInfo]
+p1startx = -270
+p1starty = 0 
+p1facing = 1
+p2startx = 270
+p2starty = 0 
+p2facing = -1
+p3startx = -290
+p3starty = 0 
+p3facing = 1
+p4startx = 290
+p4starty = 0 
+p4facing = -1
+leftbound  = -8000
+rightbound =  8000
+
+[Bound]
+screenleft 	= 0
+screenright 	= 0
+
+[StageInfo]
+zoffset 	= 555.0
+autoturn 	= 1
+resetBG 	= 0
+localcoord 	= 1280,720
+
+[Scaling]
+topz     	= 0
+botz     	= 50
+topscale 	= 1
+botscale 	= 1.2
+
+[Shadow]
+color 		= 0,0,0
+yscale 		= .2
+
+[Music]
+bgmusic 	= sound/Fight_On_FFVII.mp3
+bgvolume 	= 255
+
+[BGdef]
+spr 		= Midgar.sff
+debugbg 	= 0
+
+[BG Clouds (You get it?)]
+type  = normal
+spriteno = 3,0
+delta = .1, .1
+tile = 1,0
+velocity = -.2,0
+start = 0,-235
+mask = 1
+layerno = 0
+scalestart = 1.60,1.60
+
+[BG Midgar]
+type  = normal
+spriteno = 2,0
+delta = .2, .2
+start = 0,-235
+mask = 1
+layerno = 0
+scalestart = 1.6,1.6
+tilespacing = 1, 0
+
+[BG Glow]
+type = anim
+actionno = 2
+delta = .2, .2
+start = 0,-235
+scalestart = 1.6,1.6
+mask = 1
+
+[Begin Action 2]
+4,0,0,0,10,,AS180D256
+4,0,0,0,10,,AS167D256
+4,0,0,0,10,,AS153D256
+4,0,0,0,10,,AS140D256
+4,0,0,0,10,,AS128D256
+4,0,0,0,10,,AS114D256
+4,0,0,0,10,,AS114D256
+4,0,0,0,10,,AS128D256
+4,0,0,0,10,,AS140D256
+4,0,0,0,10,,AS153D256
+4,0,0,0,10,,AS167D256
+
+[BG Floor]
+type  = normal
+spriteno = 1,0
+delta = 1, 1
+start = 0,-235
+mask = 1
+layerno = 0
+scalestart = 1.60,1.60
+tilespacing = 1, 0
+
+[BG Smog]
+type = normal
+spriteno = 5,0
+start = 0,-235
+delta = 1,1
+trans = addalpha
+alpha = 50,245
+tile = 1,0
+tilespacing = 0
+velocity = 1,0
+mask = 1
+layerno = 1

@@ -1,0 +1,3068 @@
+; Stage informations :
+; -----------------
+; From the game: 	The King of Fighters 95
+; Name:			Psycho Soldier Team's Stage
+; Version:		0.1
+
+; Rip Informations :	
+; ----------------
+; by:			Dark Saviour
+; from:			Nebula 2.25
+; with:			MCM 1.5, sffextract 0.92 & sprmaker 0.97a
+; date:			25/09/2006
+
+; Contacts :
+; --------
+; email: 		darksaviour77@hotmail.com
+; site:			http://www.ds-arena.fr.st
+
+; Please don't link these files ;)
+
+;--------------------------------------------------------
+[Info]
+name = "Psycho Soldier Team Stage"
+
+;--------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+boundleft = -216
+boundright = 216
+boundhigh = 0
+verticalfollow = .3
+tension = 75
+
+;--------------------------------------------------------
+[PlayerInfo]
+p1startx = -80
+p1starty = 0 
+p1startz = 0 
+p1facing = 1
+p2startx = 80
+p2starty = 0
+p2startz = 0
+p2facing = -1
+leftbound = -1000
+rightbound = 1000
+topbound = 0
+botbound = 0
+
+;--------------------------------------------------------
+[Scaling]
+topz = 0
+botz = 50
+topscale = 1
+botscale = 1.4
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 24
+screenright = 24
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 224
+autoturn = 1 
+resetBG = 0
+
+;--------------------------------------------------------
+[Shadow]
+;color = 16,16,16
+yscale = .19
+
+;--------------------------------------------------------
+[Music]
+bgmusic = sound/Psycho Soldier Theme   Super Smash Bros Ultimate[1].mp3
+volume = 255
+
+;--------------------------------------------------------
+[BGdef]
+spr = stages/kof95-psycho.sff
+debugbg = 0
+
+;--------------------------------------------------------
+;--------------------------------------------------------
+
+[BG 0]
+type = normal
+spriteno = 0, 0
+start = 0, 0
+delta = .481481, 1
+
+[BG 1a]
+type = normal
+spriteno = 1, 0
+start = 0, 0
+delta = .699074, 1
+mask = 1
+
+[BG 1b]
+type = normal
+spriteno = 1, 1
+start = 0, 0
+delta = .699074, 1
+mask = 1
+
+[BG 2]
+type = anim
+actionno = 2
+start = 0, 0
+delta = .699074, 1
+
+[Begin Action 2]
+2,0, 0,0, 1
+2,1, 0,0, 1
+2,2, 0,0, 1
+2,3, 0,0, 1
+2,4, 0,0, 1
+2,5, 0,0, 1
+2,6, 0,0, 1
+2,7, 0,0, 1
+
+[BG 3]
+type = anim
+actionno = 3
+start = 0, 0
+delta = .699074, 1
+
+[Begin Action 3]
+3,0, 0,0, 1
+3,1, 0,0, 1
+3,2, 0,0, 1
+3,3, 0,0, 1
+3,4, 0,0, 1
+3,5, 0,0, 1
+3,6, 0,0, 1
+3,7, 0,0, 1
+
+[BG 4]
+type = normal
+spriteno = 4, 0
+start = 0, 0
+delta = 1, 1
+mask = 1
+
+[BG 5]
+type = normal
+spriteno = 5, 0
+start = 0, 0
+delta = 1, 1
+layerno = 1
+mask = 1
+
+[BG 6]
+type = anim
+actionno = 6
+start = 0, 0
+delta = 1, 1
+id = 600
+
+[Begin Action 6]
+6,0, 0,0, 1
+6,1, 0,0, 1
+6,2, 0,0, 1
+6,3, 0,0, 1
+6,4, 0,0, 1
+6,5, 0,0, 1
+6,6, 0,0, 1
+6,7, 0,0, 1
+6,8, 0,0, 1
+6,9, 0,0, 1
+6,10, 0,0, 1
+6,11, 0,0, 1
+6,12, 0,0, 1
+6,13, 0,0, 1
+6,14, 0,0, 1
+6,15, 0,0, 1
+6,16, 0,0, 1
+6,17, 0,0, 1
+6,18, 0,0, 1
+6,19, 0,0, 1
+6,20, 0,0, 1
+6,21, 0,0, 1
+6,22, 0,0, 1
+6,23, 0,0, 1
+6,24, 0,0, 1
+
+[BGCtrlDef 600]
+looptime = 3517
+CtrlID = 600
+
+[BGCtrl 600.0]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 600.1]
+type = PosSet
+time = 417
+x = 294
+y = 5
+
+[BGCtrl 600.2]
+type = Enable
+time = 417
+value = 1
+
+[BGCtrl 600.3]
+type = Enable
+time = 442
+value = 0
+
+[BGCtrl 601.1]
+type = PosSet
+time = 687
+x = 271
+
+[BGCtrl 601.2]
+type = Enable
+time = 687
+value = 1
+
+[BGCtrl 601.3]
+type = Enable
+time = 712
+value = 0
+
+[BGCtrl 602.1]
+type = PosSet
+time = 948
+x = 220
+
+[BGCtrl 602.2]
+type = Enable
+time = 948
+value = 1
+
+[BGCtrl 602.3]
+type = Enable
+time = 973
+value = 0
+
+[BGCtrl 603.1]
+type = PosSet
+time = 1033
+x = 223
+
+[BGCtrl 603.2]
+type = Enable
+time = 1033
+value = 1
+
+[BGCtrl 603.3]
+type = Enable
+time = 1058
+value = 0
+
+[BGCtrl 604.1]
+type = PosSet
+time = 1291
+x = 335
+
+[BGCtrl 604.2]
+type = Enable
+time = 1291
+value = 1
+
+[BGCtrl 604.3]
+type = Enable
+time = 1316
+value = 0
+
+[BGCtrl 605.1]
+type = PosSet
+time = 1355
+x = 220
+
+[BGCtrl 605.2]
+type = Enable
+time = 1355
+value = 1
+
+[BGCtrl 605.3]
+type = Enable
+time = 1380
+value = 0
+
+[BGCtrl 606.1]
+type = PosSet
+time = 1572
+x = 257
+
+[BGCtrl 606.2]
+type = Enable
+time = 1572
+value = 1
+
+[BGCtrl 606.3]
+type = Enable
+time = 1597
+value = 0
+
+[BGCtrl 607.1]
+type = PosSet
+time = 1687
+x = 357
+y = 5
+
+[BGCtrl 607.2]
+type = Enable
+time = 1687
+value = 1
+
+[BGCtrl 607.3]
+type = Enable
+time = 1712
+value = 0
+
+[BGCtrl 608.1]
+type = PosSet
+time = 1806
+x = 255
+y = 5
+
+[BGCtrl 608.2]
+type = Enable
+time = 1806
+value = 1
+
+[BGCtrl 608.3]
+type = Enable
+time = 1831
+value = 0
+
+[BGCtrl 609.1]
+type = PosSet
+time = 1900
+x = 214
+y = 5
+
+[BGCtrl 609.2]
+type = Enable
+time = 1900
+value = 1
+
+[BGCtrl 609.3]
+type = Enable
+time = 1925
+value = 0
+
+[BGCtrl 610.1]
+type = PosSet
+time = 1968
+x = 247
+
+[BGCtrl 610.2]
+type = Enable
+time = 1968
+value = 1
+
+[BGCtrl 610.3]
+type = Enable
+time = 1993
+value = 0
+
+[BGCtrl 611.1]
+type = PosSet
+time = 2055
+x = 224
+
+[BGCtrl 611.2]
+type = Enable
+time = 2055
+value = 1
+
+[BGCtrl 611.3]
+type = Enable
+time = 2080
+value = 0
+
+[BGCtrl 612.1]
+type = PosSet
+time = 2294
+x = 302
+
+[BGCtrl 612.2]
+type = Enable
+time = 2294
+value = 1
+
+[BGCtrl 612.3]
+type = Enable
+time = 2319
+value = 0
+
+[BGCtrl 613.1]
+type = PosSet
+time = 2449
+x = 323
+
+[BGCtrl 613.2]
+type = Enable
+time = 2449
+value = 1
+
+[BGCtrl 613.3]
+type = Enable
+time = 2474
+value = 0
+
+[BGCtrl 614.1]
+type = PosSet
+time = 2728
+x = 313
+
+[BGCtrl 614.2]
+type = Enable
+time = 2728
+value = 1
+
+[BGCtrl 614.3]
+type = Enable
+time = 2753
+value = 0
+
+[BGCtrl 615.1]
+type = PosSet
+time = 2924
+x = 317
+y = 5
+
+[BGCtrl 615.2]
+type = Enable
+time = 2924
+value = 1
+
+[BGCtrl 615.3]
+type = Enable
+time = 2949
+value = 0
+
+[BGCtrl 616.1]
+type = PosSet
+time = 3095
+x = 205
+
+[BGCtrl 616.2]
+type = Enable
+time = 3095
+value = 1
+
+[BGCtrl 616.3]
+type = Enable
+time = 3120
+value = 0
+
+[BGCtrl 617.1]
+type = PosSet
+time = 3184
+x = 267
+
+[BGCtrl 617.2]
+type = Enable
+time = 3184
+value = 1
+
+[BGCtrl 617.3]
+type = Enable
+time = 3209
+value = 0
+
+[BGCtrl 618.1]
+type = PosSet
+time = 3428
+x = 280
+
+[BGCtrl 618.2]
+type = Enable
+time = 3428
+value = 1
+
+[BGCtrl 618.3]
+type = Enable
+time = 3453
+value = 0
+
+[BG 7]
+type = anim
+actionno = 7
+start = 0, 0
+delta = 1, 1
+layerno = 1
+id = 700
+
+[Begin Action 7]
+7,0, 0,0, 4
+7,1, 0,0, 4
+7,2, 0,0, 4
+7,3, 0,0, 1
+7,4, 0,0, 2
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,5, 0,0, 1
+7,6, 0,0, 1
+7,7, 0,0, 1
+7,8, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,9, 0,0, 1
+7,10, 0,0, 1
+7,11, 0,0, 1
+7,12, 0,0, 1
+7,13, 0,0, 3
+7,14, 0,0, 4
+7,15, 0,0, 4
+7,16, 0,0, 5
+
+[BGCtrlDef 700]
+looptime = 7482
+CtrlID = 700
+
+[BGCtrl 700.0]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 700.1]
+type = PosSet
+time = 6
+x = 100
+
+[BGCtrl 700.2]
+type = Enable
+time = 6
+value = 1
+
+[BGCtrl 700.3]
+type = Enable
+time = 261
+value = 0
+
+[BGCtrl 701.1]
+type = PosSet
+time = 350
+x = -295
+
+[BGCtrl 701.2]
+type = Enable
+time = 350
+value = 1
+
+[BGCtrl 701.3]
+type = Enable
+time = 605
+value = 0
+
+[BGCtrl 702.1]
+type = PosSet
+time = 653
+x = 174
+
+[BGCtrl 702.2]
+type = Enable
+time = 653
+value = 1
+
+[BGCtrl 702.3]
+type = Enable
+time = 908
+value = 0
+
+[BGCtrl 703.1]
+type = PosSet
+time = 1132
+x = -11
+
+[BGCtrl 703.2]
+type = Enable
+time = 1132
+value = 1
+
+[BGCtrl 703.3]
+type = Enable
+time = 1387
+value = 0
+
+[BGCtrl 704.1]
+type = PosSet
+time = 1604
+x = 313
+
+[BGCtrl 704.2]
+type = Enable
+time = 1604
+value = 1
+
+[BGCtrl 704.3]
+type = Enable
+time = 1859
+value = 0
+
+[BGCtrl 705.1]
+type = PosSet
+time = 1911
+x = -90
+
+[BGCtrl 705.2]
+type = Enable
+time = 1911
+value = 1
+
+[BGCtrl 705.3]
+type = Enable
+time = 2166
+value = 0
+
+[BGCtrl 706.1]
+type = PosSet
+time = 2297
+x = 131
+
+[BGCtrl 706.2]
+type = Enable
+time = 2297
+value = 1
+
+[BGCtrl 706.3]
+type = Enable
+time = 2552
+value = 0
+
+[BGCtrl 707.1]
+type = PosSet
+time = 2663
+x = 103
+
+[BGCtrl 707.2]
+type = Enable
+time = 2663
+value = 1
+
+[BGCtrl 707.3]
+type = Enable
+time = 2918
+value = 0
+
+[BGCtrl 708.1]
+type = PosSet
+time = 2924
+x = -287
+
+[BGCtrl 708.2]
+type = Enable
+time = 2924
+value = 1
+
+[BGCtrl 708.3]
+type = Enable
+time = 3179
+value = 0
+
+[BGCtrl 709.1]
+type = PosSet
+time = 3454
+x = -224
+
+[BGCtrl 709.2]
+type = Enable
+time = 3454
+value = 1
+
+[BGCtrl 709.3]
+type = Enable
+time = 3709
+value = 0
+
+[BGCtrl 710.1]
+type = PosSet
+time = 3760
+x = 8
+
+[BGCtrl 710.2]
+type = Enable
+time = 3760
+value = 1
+
+[BGCtrl 710.3]
+type = Enable
+time = 4015
+value = 0
+
+[BGCtrl 711.1]
+type = PosSet
+time = 4132
+x = 59
+
+[BGCtrl 711.2]
+type = Enable
+time = 4132
+value = 1
+
+[BGCtrl 711.3]
+type = Enable
+time = 4387
+value = 0
+
+[BGCtrl 712.1]
+type = PosSet
+time = 4431
+x = -301
+
+[BGCtrl 712.2]
+type = Enable
+time = 4431
+value = 1
+
+[BGCtrl 712.3]
+type = Enable
+time = 4686
+value = 0
+
+[BGCtrl 713.1]
+type = PosSet
+time = 4899
+x = 91
+
+[BGCtrl 713.2]
+type = Enable
+time = 4899
+value = 1
+
+[BGCtrl 713.3]
+type = Enable
+time = 5154
+value = 0
+
+[BGCtrl 714.1]
+type = PosSet
+time = 5202
+x = -61
+
+[BGCtrl 714.2]
+type = Enable
+time = 5202
+value = 1
+
+[BGCtrl 714.3]
+type = Enable
+time = 5455
+value = 0
+
+[BGCtrl 715.1]
+type = PosSet
+time = 5647
+x = 323
+
+[BGCtrl 715.2]
+type = Enable
+time = 5647
+value = 1
+
+[BGCtrl 715.3]
+type = Enable
+time = 5902
+value = 0
+
+[BGCtrl 716.1]
+type = PosSet
+time = 6242
+x = -328
+
+[BGCtrl 716.2]
+type = Enable
+time = 6242
+value = 1
+
+[BGCtrl 716.3]
+type = Enable
+time = 6497
+value = 0
+
+[BGCtrl 717.1]
+type = PosSet
+time = 6668
+x = -287
+
+[BGCtrl 717.2]
+type = Enable
+time = 6668
+value = 1
+
+[BGCtrl 717.3]
+type = Enable
+time = 6923
+value = 0
+
+[BGCtrl 718.1]
+type = PosSet
+time = 7182
+x = 115
+
+[BGCtrl 718.2]
+type = Enable
+time = 7182
+value = 1
+
+[BGCtrl 718.3]
+type = Enable
+time = 7437
+value = 0
+
+[BG 8]
+type = anim
+actionno = 8
+start = 0, 0
+delta = 1, 1
+layerno = 1
+id = 8000
+
+[BGCtrlDef 8000]
+looptime = 3516
+CtrlID = 8000
+
+[BGCtrl 8000.0]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 8000.1]
+type = PosSet
+time = 310
+x = -348
+
+[BGCtrl 8000.2]
+type = Enable
+time = 310
+value = 1
+
+[BGCtrl 8000.3]
+type = Enable
+time = 345
+value = 0
+
+[BGCtrl 8001.1]
+type = PosSet
+time = 428
+x = -309
+
+[BGCtrl 8001.2]
+type = Enable
+time = 428
+value = 1
+
+[BGCtrl 8001.3]
+type = Enable
+time = 463
+value = 0
+
+[BGCtrl 8002.1]
+type = PosSet
+time = 548
+x = -166
+
+[BGCtrl 8002.2]
+type = Enable
+time = 548
+value = 1
+
+[BGCtrl 8002.3]
+type = Enable
+time = 583
+value = 0
+
+[BGCtrl 8003.1]
+type = PosSet
+time = 738
+x = -162
+
+[BGCtrl 8003.2]
+type = Enable
+time = 738
+value = 1
+
+[BGCtrl 8003.3]
+type = Enable
+time = 773
+value = 0
+
+[BGCtrl 8004.1]
+type = PosSet
+time = 928
+x = -330
+
+[BGCtrl 8004.2]
+type = Enable
+time = 928
+value = 1
+
+[BGCtrl 8004.3]
+type = Enable
+time = 963
+value = 0
+
+[BGCtrl 8005.1]
+type = PosSet
+time = 1133
+x = -258
+
+[BGCtrl 8005.2]
+type = Enable
+time = 1133
+value = 1
+
+[BGCtrl 8005.3]
+type = Enable
+time = 1168
+value = 0
+
+[BGCtrl 8006.1]
+type = PosSet
+time = 1320
+x = -310
+
+[BGCtrl 8006.2]
+type = Enable
+time = 1320
+value = 1
+
+[BGCtrl 8006.3]
+type = Enable
+time = 1355
+value = 0
+
+[BGCtrl 8007.1]
+type = PosSet
+time = 1411
+x = -341
+
+[BGCtrl 8007.2]
+type = Enable
+time = 1411
+value = 1
+
+[BGCtrl 8007.3]
+type = Enable
+time = 1446
+value = 0
+
+[BGCtrl 8008.1]
+type = PosSet
+time = 1614
+x = -274
+
+[BGCtrl 8008.2]
+type = Enable
+time = 1614
+value = 1
+
+[BGCtrl 8008.3]
+type = Enable
+time = 1649
+value = 0
+
+[BGCtrl 8009.1]
+type = PosSet
+time = 1882
+x = -164
+
+[BGCtrl 8009.2]
+type = Enable
+time = 1882
+value = 1
+
+[BGCtrl 8009.3]
+type = Enable
+time = 1917
+value = 0
+
+[BGCtrl 8010.1]
+type = PosSet
+time = 2021
+x = -262
+
+[BGCtrl 8010.2]
+type = Enable
+time = 2021
+value = 1
+
+[BGCtrl 8010.3]
+type = Enable
+time = 2056
+value = 0
+
+[BGCtrl 8011.1]
+type = PosSet
+time = 2098
+x = -160
+
+[BGCtrl 8011.2]
+type = Enable
+time = 2098
+value = 1
+
+[BGCtrl 8011.3]
+type = Enable
+time = 2133
+value = 0
+
+[BGCtrl 8012.1]
+type = PosSet
+time = 2362
+x = -239
+
+[BGCtrl 8012.2]
+type = Enable
+time = 2362
+value = 1
+
+[BGCtrl 8012.3]
+type = Enable
+time = 2397
+value = 0
+
+[BGCtrl 8013.1]
+type = PosSet
+time = 2466
+x = -183
+
+[BGCtrl 8013.2]
+type = Enable
+time = 2466
+value = 1
+
+[BGCtrl 8013.3]
+type = Enable
+time = 2501
+value = 0
+
+[BGCtrl 8014.1]
+type = PosSet
+time = 2646
+x = -296
+
+[BGCtrl 8014.2]
+type = Enable
+time = 2646
+value = 1
+
+[BGCtrl 8014.3]
+type = Enable
+time = 2681
+value = 0
+
+[BGCtrl 8015.1]
+type = PosSet
+time = 2835
+x = -223
+
+[BGCtrl 8015.2]
+type = Enable
+time = 2835
+value = 1
+
+[BGCtrl 8015.3]
+type = Enable
+time = 2870
+value = 0
+
+[BGCtrl 8016.1]
+type = PosSet
+time = 3138
+x = -306
+
+[BGCtrl 8016.2]
+type = Enable
+time = 3138
+value = 1
+
+[BGCtrl 8016.3]
+type = Enable
+time = 3173
+value = 0
+
+[BGCtrl 8017.1]
+type = PosSet
+time = 3323
+x = -167
+
+[BGCtrl 8017.2]
+type = Enable
+time = 3323
+value = 1
+
+[BGCtrl 8017.3]
+type = Enable
+time = 3358
+value = 0
+
+[BGCtrl 8018.1]
+type = PosSet
+time = 3478
+x = -277
+
+[BGCtrl 8018.2]
+type = Enable
+time = 3478
+value = 1
+
+[BGCtrl 8018.3]
+type = Enable
+time = 3513
+value = 0
+
+[BG 8']
+type = anim
+actionno = 8
+start = 0, 0
+delta = 1, 1
+layerno = 1
+id = 8100
+
+[BGCtrlDef 8100]
+looptime = 3516
+CtrlID = 8100
+
+[BGCtrl 8100.0]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 8100.1]
+type = PosSet
+time = 310
+x = -228
+
+[BGCtrl 8100.2]
+type = Enable
+time = 310
+value = 1
+
+[BGCtrl 8100.3]
+type = Enable
+time = 345
+value = 0
+
+[BGCtrl 8101.1]
+type = PosSet
+time = 455
+x = -153
+
+[BGCtrl 8101.2]
+type = Enable
+time = 455
+value = 1
+
+[BGCtrl 8101.3]
+type = Enable
+time = 490
+value = 0
+
+[BGCtrl 8102.1]
+type = PosSet
+time = 575
+x = -208
+
+[BGCtrl 8102.2]
+type = Enable
+time = 575
+value = 1
+
+[BGCtrl 8102.3]
+type = Enable
+time = 610
+value = 0
+
+[BGCtrl 8103.1]
+type = PosSet
+time = 796
+x = -241
+
+[BGCtrl 8103.2]
+type = Enable
+time = 796
+value = 1
+
+[BGCtrl 8103.3]
+type = Enable
+time = 831
+value = 0
+
+[BGCtrl 8104.1]
+type = PosSet
+time = 1053
+x = -281
+
+[BGCtrl 8104.2]
+type = Enable
+time = 1053
+value = 1
+
+[BGCtrl 8104.3]
+type = Enable
+time = 1088
+value = 0
+
+[BGCtrl 8105.1]
+type = PosSet
+time = 1266
+x = -274
+
+[BGCtrl 8105.2]
+type = Enable
+time = 1266
+value = 1
+
+[BGCtrl 8105.3]
+type = Enable
+time = 1301
+value = 0
+
+[BGCtrl 8106.1]
+type = PosSet
+time = 1411
+x = -344
+
+[BGCtrl 8106.2]
+type = Enable
+time = 1411
+value = 1
+
+[BGCtrl 8106.3]
+type = Enable
+time = 1446
+value = 0
+
+[BGCtrl 8107.1]
+type = PosSet
+time = 1562
+x = -196
+
+[BGCtrl 8107.2]
+type = Enable
+time = 1562
+value = 1
+
+[BGCtrl 8107.3]
+type = Enable
+time = 1597
+value = 0
+
+[BGCtrl 8108.1]
+type = PosSet
+time = 1697
+x = -210
+
+[BGCtrl 8108.2]
+type = Enable
+time = 1697
+value = 1
+
+[BGCtrl 8108.3]
+type = Enable
+time = 1732
+value = 0
+
+[BGCtrl 8109.1]
+type = PosSet
+time = 1889
+x = -338
+
+[BGCtrl 8109.2]
+type = Enable
+time = 1889
+value = 1
+
+[BGCtrl 8109.3]
+type = Enable
+time = 1924
+value = 0
+
+[BGCtrl 8110.1]
+type = PosSet
+time = 2043
+x = -180
+
+[BGCtrl 8110.2]
+type = Enable
+time = 2043
+value = 1
+
+[BGCtrl 8110.3]
+type = Enable
+time = 2078
+value = 0
+
+[BGCtrl 8111.1]
+type = PosSet
+time = 2283
+x = -243
+
+[BGCtrl 8111.2]
+type = Enable
+time = 2283
+value = 1
+
+[BGCtrl 8111.3]
+type = Enable
+time = 2318
+value = 0
+
+[BGCtrl 8112.1]
+type = PosSet
+time = 2458
+x = -293
+
+[BGCtrl 8112.2]
+type = Enable
+time = 2458
+value = 1
+
+[BGCtrl 8112.3]
+type = Enable
+time = 2493
+value = 0
+
+[BGCtrl 8113.1]
+type = PosSet
+time = 2638
+x = -349
+
+[BGCtrl 8113.2]
+type = Enable
+time = 2638
+value = 1
+
+[BGCtrl 8113.3]
+type = Enable
+time = 2673
+value = 0
+
+[BGCtrl 8114.1]
+type = PosSet
+time = 2816
+x = -268
+
+[BGCtrl 8114.2]
+type = Enable
+time = 2816
+value = 1
+
+[BGCtrl 8114.3]
+type = Enable
+time = 2851
+value = 0
+
+[BGCtrl 8115.1]
+type = PosSet
+time = 3004
+x = -314
+
+[BGCtrl 8115.2]
+type = Enable
+time = 3004
+value = 1
+
+[BGCtrl 8115.3]
+type = Enable
+time = 3039
+value = 0
+
+[BGCtrl 8116.1]
+type = PosSet
+time = 3208
+x = -177
+
+[BGCtrl 8116.2]
+type = Enable
+time = 3208
+value = 1
+
+[BGCtrl 8116.3]
+type = Enable
+time = 3243
+value = 0
+
+[BGCtrl 8117.1]
+type = PosSet
+time = 3360
+x = -155
+
+[BGCtrl 8117.2]
+type = Enable
+time = 3360
+value = 1
+
+[BGCtrl 8117.3]
+type = Enable
+time = 3395
+value = 0
+
+[BG 8'']
+type = anim
+actionno = 8
+start = 0, 0
+delta = 1, 1
+layerno = 1
+id = 8200
+
+[BGCtrlDef 8200]
+looptime = 3516
+CtrlID = 8200
+
+[BGCtrl 8200.0]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 8200.1]
+type = PosSet
+time = 308
+x = -124
+
+[BGCtrl 8200.2]
+type = Enable
+time = 308
+value = 1
+
+[BGCtrl 8200.3]
+type = Enable
+time = 343
+value = 0
+
+[BGCtrl 8201.1]
+type = PosSet
+time = 385
+x = 77
+
+[BGCtrl 8201.2]
+type = Enable
+time = 385
+value = 1
+
+[BGCtrl 8201.3]
+type = Enable
+time = 420
+value = 0
+
+[BGCtrl 8202.1]
+type = PosSet
+time = 473
+x = 115
+
+[BGCtrl 8202.2]
+type = Enable
+time = 473
+value = 1
+
+[BGCtrl 8202.3]
+type = Enable
+time = 508
+value = 0
+
+[BGCtrl 8203.1]
+type = PosSet
+time = 665
+x = -112
+
+[BGCtrl 8203.2]
+type = Enable
+time = 665
+value = 1
+
+[BGCtrl 8203.3]
+type = Enable
+time = 700
+value = 0
+
+[BGCtrl 8204.1]
+type = PosSet
+time = 787
+x = -112
+
+[BGCtrl 8204.2]
+type = Enable
+time = 787
+value = 1
+
+[BGCtrl 8204.3]
+type = Enable
+time = 822
+value = 0
+
+[BGCtrl 8205.1]
+type = PosSet
+time = 922
+x = 67
+
+[BGCtrl 8205.2]
+type = Enable
+time = 922
+value = 1
+
+[BGCtrl 8205.3]
+type = Enable
+time = 957
+value = 0
+
+[BGCtrl 8206.1]
+type = PosSet
+time = 1054
+x = 81
+
+[BGCtrl 8206.2]
+type = Enable
+time = 1054
+value = 1
+
+[BGCtrl 8206.3]
+type = Enable
+time = 1089
+value = 0
+
+[BGCtrl 8207.1]
+type = PosSet
+time = 1207
+x = 46
+
+[BGCtrl 8207.2]
+type = Enable
+time = 1207
+value = 1
+
+[BGCtrl 8207.3]
+type = Enable
+time = 1242
+value = 0
+
+[BGCtrl 8208.1]
+type = PosSet
+time = 1296
+x = -50
+
+[BGCtrl 8208.2]
+type = Enable
+time = 1296
+value = 1
+
+[BGCtrl 8208.3]
+type = Enable
+time = 1331
+value = 0
+
+[BGCtrl 8209.1]
+type = PosSet
+time = 1418
+x = -100
+
+[BGCtrl 8209.2]
+type = Enable
+time = 1418
+value = 1
+
+[BGCtrl 8209.3]
+type = Enable
+time = 1453
+value = 0
+
+[BGCtrl 8210.1]
+type = PosSet
+time = 1525
+x = -32
+
+[BGCtrl 8210.2]
+type = Enable
+time = 1525
+value = 1
+
+[BGCtrl 8210.3]
+type = Enable
+time = 1560
+value = 0
+
+[BGCtrl 8211.1]
+type = PosSet
+time = 1655
+x = 2
+
+[BGCtrl 8211.2]
+type = Enable
+time = 1655
+value = 1
+
+[BGCtrl 8211.3]
+type = Enable
+time = 1690
+value = 0
+
+[BGCtrl 8212.1]
+type = PosSet
+time = 1828
+x = 88
+
+[BGCtrl 8212.2]
+type = Enable
+time = 1828
+value = 1
+
+[BGCtrl 8212.3]
+type = Enable
+time = 1863
+value = 0
+
+[BGCtrl 8213.1]
+type = PosSet
+time = 2055
+x = -3
+
+[BGCtrl 8213.2]
+type = Enable
+time = 2055
+value = 1
+
+[BGCtrl 8213.3]
+type = Enable
+time = 2090
+value = 0
+
+[BGCtrl 8214.1]
+type = PosSet
+time = 2199
+x = 48
+
+[BGCtrl 8214.2]
+type = Enable
+time = 2199
+value = 1
+
+[BGCtrl 8214.3]
+type = Enable
+time = 2234
+value = 0
+
+[BGCtrl 8215.1]
+type = PosSet
+time = 2359
+x = 59
+
+[BGCtrl 8215.2]
+type = Enable
+time = 2359
+value = 1
+
+[BGCtrl 8215.3]
+type = Enable
+time = 2394
+value = 0
+
+[BGCtrl 8216.1]
+type = PosSet
+time = 2511
+x = 34
+
+[BGCtrl 8216.2]
+type = Enable
+time = 2511
+value = 1
+
+[BGCtrl 8216.3]
+type = Enable
+time = 2546
+value = 0
+
+[BGCtrl 8217.1]
+type = PosSet
+time = 2697
+x = 48
+
+[BGCtrl 8217.2]
+type = Enable
+time = 2697
+value = 1
+
+[BGCtrl 8217.3]
+type = Enable
+time = 2732
+value = 0
+
+[BGCtrl 8218.1]
+type = PosSet
+time = 2795
+x = -117
+
+[BGCtrl 8218.2]
+type = Enable
+time = 2795
+value = 1
+
+[BGCtrl 8218.3]
+type = Enable
+time = 2830
+value = 0
+
+[BGCtrl 8219.1]
+type = PosSet
+time = 2888
+x = -115
+
+[BGCtrl 8219.2]
+type = Enable
+time = 2888
+value = 1
+
+[BGCtrl 8219.3]
+type = Enable
+time = 2923
+value = 0
+
+[BGCtrl 8220.1]
+type = PosSet
+time = 3019
+x = 83
+
+[BGCtrl 8220.2]
+type = Enable
+time = 3019
+value = 1
+
+[BGCtrl 8220.3]
+type = Enable
+time = 3054
+value = 0
+
+[BGCtrl 8221.1]
+type = PosSet
+time = 3110
+x = -95
+
+[BGCtrl 8221.2]
+type = Enable
+time = 3110
+value = 1
+
+[BGCtrl 8221.3]
+type = Enable
+time = 3145
+value = 0
+
+[BGCtrl 8222.1]
+type = PosSet
+time = 3187
+x = -116
+
+[BGCtrl 8222.2]
+type = Enable
+time = 3187
+value = 1
+
+[BGCtrl 8222.3]
+type = Enable
+time = 3222
+value = 0
+
+[BGCtrl 8223.1]
+type = PosSet
+time = 3362
+x = 38
+
+[BGCtrl 8223.2]
+type = Enable
+time = 3362
+value = 1
+
+[BGCtrl 8223.3]
+type = Enable
+time = 3397
+value = 0
+
+[BGCtrl 8224.1]
+type = PosSet
+time = 3460
+x = 118
+
+[BGCtrl 8224.2]
+type = Enable
+time = 3460
+value = 1
+
+[BGCtrl 8224.3]
+type = Enable
+time = 3495
+value = 0
+
+[BG 8''']
+type = anim
+actionno = 8
+start = 0, 0
+delta = 1, 1
+layerno = 1
+id = 8300
+
+[BGCtrlDef 8300]
+looptime = 3516
+CtrlID = 8300
+
+[BGCtrl 8300.0]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 8300.1]
+type = PosSet
+time = 308
+x = -4
+
+[BGCtrl 8300.2]
+type = Enable
+time = 308
+value = 1
+
+[BGCtrl 8300.3]
+type = Enable
+time = 343
+value = 0
+
+[BGCtrl 8301.1]
+type = PosSet
+time = 441
+x = 91
+
+[BGCtrl 8301.2]
+type = Enable
+time = 441
+value = 1
+
+[BGCtrl 8301.3]
+type = Enable
+time = 476
+value = 0
+
+[BGCtrl 8302.1]
+type = PosSet
+time = 525
+x = -61
+
+[BGCtrl 8302.2]
+type = Enable
+time = 525
+value = 1
+
+[BGCtrl 8302.3]
+type = Enable
+time = 560
+value = 0
+
+[BGCtrl 8303.1]
+type = PosSet
+time = 665
+x = -112
+
+[BGCtrl 8303.2]
+type = Enable
+time = 665
+value = 1
+
+[BGCtrl 8303.3]
+type = Enable
+time = 700
+value = 0
+
+[BGCtrl 8304.1]
+type = PosSet
+time = 798
+x = 17
+
+[BGCtrl 8304.2]
+type = Enable
+time = 798
+value = 1
+
+[BGCtrl 8304.3]
+type = Enable
+time = 833
+value = 0
+
+[BGCtrl 8305.1]
+type = PosSet
+time = 952
+x = 88
+
+[BGCtrl 8305.2]
+type = Enable
+time = 952
+value = 1
+
+[BGCtrl 8305.3]
+type = Enable
+time = 987
+value = 0
+
+[BGCtrl 8306.1]
+type = PosSet
+time = 1116
+x = -113
+
+[BGCtrl 8306.2]
+type = Enable
+time = 1116
+value = 1
+
+[BGCtrl 8306.3]
+type = Enable
+time = 1151
+value = 0
+
+[BGCtrl 8307.1]
+type = PosSet
+time = 1214
+x = -70
+
+[BGCtrl 8307.2]
+type = Enable
+time = 1214
+value = 1
+
+[BGCtrl 8307.3]
+type = Enable
+time = 1249
+value = 0
+
+[BGCtrl 8308.1]
+type = PosSet
+time = 1389
+x = 72
+
+[BGCtrl 8308.2]
+type = Enable
+time = 1389
+value = 1
+
+[BGCtrl 8308.3]
+type = Enable
+time = 1424
+value = 0
+
+[BGCtrl 8309.1]
+type = PosSet
+time = 1507
+x = -32
+
+[BGCtrl 8309.2]
+type = Enable
+time = 1507
+value = 1
+
+[BGCtrl 8309.3]
+type = Enable
+time = 1542
+value = 0
+
+[BGCtrl 8310.1]
+type = PosSet
+time = 1627
+x = -92
+
+[BGCtrl 8310.2]
+type = Enable
+time = 1627
+value = 1
+
+[BGCtrl 8310.3]
+type = Enable
+time = 1662
+value = 0
+
+[BGCtrl 8311.1]
+type = PosSet
+time = 1743
+x = -64
+
+[BGCtrl 8311.2]
+type = Enable
+time = 1743
+value = 1
+
+[BGCtrl 8311.3]
+type = Enable
+time = 1778
+value = 0
+
+[BGCtrl 8312.1]
+type = PosSet
+time = 1868
+x = 97
+
+[BGCtrl 8312.2]
+type = Enable
+time = 1868
+value = 1
+
+[BGCtrl 8312.3]
+type = Enable
+time = 1897
+value = 0
+
+[BGCtrl 8313.1]
+type = PosSet
+time = 2163
+x = -88
+
+[BGCtrl 8313.2]
+type = Enable
+time = 2163
+value = 1
+
+[BGCtrl 8313.3]
+type = Enable
+time = 2198
+value = 0
+
+[BGCtrl 8314.1]
+type = PosSet
+time = 2349
+x = 24
+
+[BGCtrl 8314.2]
+type = Enable
+time = 2349
+value = 1
+
+[BGCtrl 8314.3]
+type = Enable
+time = 2384
+value = 0
+
+[BGCtrl 8315.1]
+type = PosSet
+time = 2454
+x = -125
+
+[BGCtrl 8315.2]
+type = Enable
+time = 2454
+value = 1
+
+[BGCtrl 8315.3]
+type = Enable
+time = 2489
+value = 0
+
+[BGCtrl 8316.1]
+type = PosSet
+time = 2631
+x = 87
+
+[BGCtrl 8316.2]
+type = Enable
+time = 2631
+value = 1
+
+[BGCtrl 8316.3]
+type = Enable
+time = 2666
+value = 0
+
+[BGCtrl 8317.1]
+type = PosSet
+time = 2702
+x = 49
+
+[BGCtrl 8317.2]
+type = Enable
+time = 2702
+value = 1
+
+[BGCtrl 8317.3]
+type = Enable
+time = 2737
+value = 0
+
+[BGCtrl 8318.1]
+type = PosSet
+time = 2801
+x = -116
+
+[BGCtrl 8318.2]
+type = Enable
+time = 2801
+value = 1
+
+[BGCtrl 8318.3]
+type = Enable
+time = 2836
+value = 0
+
+[BGCtrl 8319.1]
+type = PosSet
+time = 2911
+x = -97
+
+[BGCtrl 8319.2]
+type = Enable
+time = 2911
+value = 1
+
+[BGCtrl 8319.3]
+type = Enable
+time = 2946
+value = 0
+
+[BGCtrl 8320.1]
+type = PosSet
+time = 3065
+x = -74
+
+[BGCtrl 8320.2]
+type = Enable
+time = 3065
+value = 1
+
+[BGCtrl 8320.3]
+type = Enable
+time = 3100
+value = 0
+
+[BGCtrl 8321.1]
+type = PosSet
+time = 3171
+x = 13
+
+[BGCtrl 8321.2]
+type = Enable
+time = 3171
+value = 1
+
+[BGCtrl 8321.3]
+type = Enable
+time = 3206
+value = 0
+
+[BGCtrl 8322.1]
+type = PosSet
+time = 3308
+x = 57
+
+[BGCtrl 8322.2]
+type = Enable
+time = 3308
+value = 1
+
+[BGCtrl 8322.3]
+type = Enable
+time = 3343
+value = 0
+
+[BGCtrl 8323.1]
+type = PosSet
+time = 3396
+x = -37
+
+[BGCtrl 8323.2]
+type = Enable
+time = 3396
+value = 1
+
+[BGCtrl 8323.3]
+type = Enable
+time = 3431
+value = 0
+
+[BG 8'''']
+type = anim
+actionno = 8
+start = 0, 0
+delta = 1, 1
+layerno = 1
+id = 8400
+
+[BGCtrlDef 8400]
+looptime = 3516
+CtrlID = 8400
+
+[BGCtrl 8400.0]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 8400.1]
+type = PosSet
+time = 415
+x = 290
+
+[BGCtrl 8400.2]
+type = Enable
+time = 415
+value = 1
+
+[BGCtrl 8400.3]
+type = Enable
+time = 450
+value = 0
+
+[BGCtrl 8401.1]
+type = PosSet
+time = 573
+x = 282
+
+[BGCtrl 8401.2]
+type = Enable
+time = 573
+value = 1
+
+[BGCtrl 8401.3]
+type = Enable
+time = 608
+value = 0
+
+[BGCtrl 8402.1]
+type = PosSet
+time = 731
+x = 351
+
+[BGCtrl 8402.2]
+type = Enable
+time = 731
+value = 1
+
+[BGCtrl 8402.3]
+type = Enable
+time = 766
+value = 0
+
+[BGCtrl 8403.1]
+type = PosSet
+time = 878
+x = 177
+
+[BGCtrl 8403.2]
+type = Enable
+time = 878
+value = 1
+
+[BGCtrl 8403.3]
+type = Enable
+time = 913
+value = 0
+
+[BGCtrl 8404.1]
+type = PosSet
+time = 1025
+x = 305
+
+[BGCtrl 8404.2]
+type = Enable
+time = 1025
+value = 1
+
+[BGCtrl 8404.3]
+type = Enable
+time = 1060
+value = 0
+
+[BGCtrl 8405.1]
+type = PosSet
+time = 1178
+x = 342
+
+[BGCtrl 8405.2]
+type = Enable
+time = 1178
+value = 1
+
+[BGCtrl 8405.3]
+type = Enable
+time = 1213
+value = 0
+
+[BGCtrl 8406.1]
+type = PosSet
+time = 1337
+x = 324
+
+[BGCtrl 8406.2]
+type = Enable
+time = 1337
+value = 1
+
+[BGCtrl 8406.3]
+type = Enable
+time = 1372
+value = 0
+
+[BGCtrl 8407.1]
+type = PosSet
+time = 1446
+x = 203
+
+[BGCtrl 8407.2]
+type = Enable
+time = 1446
+value = 1
+
+[BGCtrl 8407.3]
+type = Enable
+time = 1481
+value = 0
+
+[BGCtrl 8408.1]
+type = PosSet
+time = 1628
+x = 348
+
+[BGCtrl 8408.2]
+type = Enable
+time = 1628
+value = 1
+
+[BGCtrl 8408.3]
+type = Enable
+time = 1663
+value = 0
+
+[BGCtrl 8409.1]
+type = PosSet
+time = 1689
+x = 256
+
+[BGCtrl 8409.2]
+type = Enable
+time = 1689
+value = 1
+
+[BGCtrl 8409.3]
+type = Enable
+time = 1724
+value = 0
+
+[BGCtrl 8410.1]
+type = PosSet
+time = 1813
+x = 191
+
+[BGCtrl 8410.2]
+type = Enable
+time = 1813
+value = 1
+
+[BGCtrl 8410.3]
+type = Enable
+time = 1848
+value = 0
+
+[BGCtrl 8411.1]
+type = PosSet
+time = 1994
+x = 257
+
+[BGCtrl 8411.2]
+type = Enable
+time = 1994
+value = 1
+
+[BGCtrl 8411.3]
+type = Enable
+time = 2029
+value = 0
+
+[BGCtrl 8412.1]
+type = PosSet
+time = 2169
+x = 310
+
+[BGCtrl 8412.2]
+type = Enable
+time = 2169
+value = 1
+
+[BGCtrl 8412.3]
+type = Enable
+time = 2204
+value = 0
+
+[BGCtrl 8413.1]
+type = PosSet
+time = 2284
+x = 262
+
+[BGCtrl 8413.2]
+type = Enable
+time = 2284
+value = 1
+
+[BGCtrl 8413.3]
+type = Enable
+time = 2319
+value = 0
+
+[BGCtrl 8414.1]
+type = PosSet
+time = 2642
+x = 197
+
+[BGCtrl 8414.2]
+type = Enable
+time = 2642
+value = 1
+
+[BGCtrl 8414.3]
+type = Enable
+time = 2677
+value = 0
+
+[BGCtrl 8415.1]
+type = PosSet
+time = 2897
+x = 225
+
+[BGCtrl 8415.2]
+type = Enable
+time = 2897
+value = 1
+
+[BGCtrl 8415.3]
+type = Enable
+time = 2932
+value = 0
+
+[BGCtrl 8416.1]
+type = PosSet
+time = 2969
+x = 318
+
+[BGCtrl 8416.2]
+type = Enable
+time = 2969
+value = 1
+
+[BGCtrl 8416.3]
+type = Enable
+time = 3004
+value = 0
+
+[BGCtrl 8417.1]
+type = PosSet
+time = 3061
+x = 234
+
+[BGCtrl 8417.2]
+type = Enable
+time = 3061
+value = 1
+
+[BGCtrl 8417.3]
+type = Enable
+time = 3096
+value = 0
+
+[BGCtrl 8418.1]
+type = PosSet
+time = 3207
+x = 264
+
+[BGCtrl 8418.2]
+type = Enable
+time = 3207
+value = 1
+
+[BGCtrl 8418.3]
+type = Enable
+time = 3242
+value = 0
+
+[BGCtrl 8419.1]
+type = PosSet
+time = 3316
+x = 319
+
+[BGCtrl 8419.2]
+type = Enable
+time = 3316
+value = 1
+
+[BGCtrl 8419.3]
+type = Enable
+time = 3351
+value = 0
+
+[BGCtrl 8420.1]
+type = PosSet
+time = 3392
+x = 182
+
+[BGCtrl 8420.2]
+type = Enable
+time = 3392
+value = 1
+
+[BGCtrl 8420.3]
+type = Enable
+time = 3427
+value = 0
+
+[BG 8''''']
+type = anim
+actionno = 8
+start = 0, 0
+delta = 1, 1
+layerno = 1
+id = 8500
+
+[BGCtrlDef 8500]
+looptime = 3516
+CtrlID = 8500
+
+[BGCtrl 8500.0]
+type = Enable
+time = 0
+value = 0
+
+[BGCtrl 8500.1]
+type = PosSet
+time = 422
+x = 266
+
+[BGCtrl 8500.2]
+type = Enable
+time = 422
+value = 1
+
+[BGCtrl 8500.3]
+type = Enable
+time = 457
+value = 0
+
+[BGCtrl 8501.1]
+type = PosSet
+time = 605
+x = 176
+
+[BGCtrl 8501.2]
+type = Enable
+time = 605
+value = 1
+
+[BGCtrl 8501.3]
+type = Enable
+time = 640
+value = 0
+
+[BGCtrl 8502.1]
+type = PosSet
+time = 792
+x = 202
+
+[BGCtrl 8502.2]
+type = Enable
+time = 792
+value = 1
+
+[BGCtrl 8502.3]
+type = Enable
+time = 827
+value = 0
+
+[BGCtrl 8503.1]
+type = PosSet
+time = 912
+x = 299
+
+[BGCtrl 8503.2]
+type = Enable
+time = 912
+value = 1
+
+[BGCtrl 8503.3]
+type = Enable
+time = 947
+value = 0
+
+[BGCtrl 8504.1]
+type = PosSet
+time = 1121
+x = 229
+
+[BGCtrl 8504.2]
+type = Enable
+time = 1121
+value = 1
+
+[BGCtrl 8504.3]
+type = Enable
+time = 1156
+value = 0
+
+[BGCtrl 8505.1]
+type = PosSet
+time = 1200
+x = 304
+
+[BGCtrl 8505.2]
+type = Enable
+time = 1200
+value = 1
+
+[BGCtrl 8505.3]
+type = Enable
+time = 1235
+value = 0
+
+[BGCtrl 8506.1]
+type = PosSet
+time = 1339
+x = 198
+
+[BGCtrl 8506.2]
+type = Enable
+time = 1339
+value = 1
+
+[BGCtrl 8506.3]
+type = Enable
+time = 1374
+value = 0
+
+[BGCtrl 8507.1]
+type = PosSet
+time = 1512
+x = 286
+
+[BGCtrl 8507.2]
+type = Enable
+time = 1512
+value = 1
+
+[BGCtrl 8507.3]
+type = Enable
+time = 1547
+value = 0
+
+[BGCtrl 8508.1]
+type = PosSet
+time = 1631
+x = 254
+
+[BGCtrl 8508.2]
+type = Enable
+time = 1631
+value = 1
+
+[BGCtrl 8508.3]
+type = Enable
+time = 1666
+value = 0
+
+[BGCtrl 8509.1]
+type = PosSet
+time = 1793
+x = 313
+
+[BGCtrl 8509.2]
+type = Enable
+time = 1793
+value = 1
+
+[BGCtrl 8509.3]
+type = Enable
+time = 1828
+value = 0
+
+[BGCtrl 8510.1]
+type = PosSet
+time = 1931
+x = 205
+
+[BGCtrl 8510.2]
+type = Enable
+time = 1931
+value = 1
+
+[BGCtrl 8510.3]
+type = Enable
+time = 1966
+value = 0
+
+[BGCtrl 8511.1]
+type = PosSet
+time = 2078
+x = 248
+
+[BGCtrl 8511.2]
+type = Enable
+time = 2078
+value = 1
+
+[BGCtrl 8511.3]
+type = Enable
+time = 2113
+value = 0
+
+[BGCtrl 8512.1]
+type = PosSet
+time = 2230
+x = 251
+
+[BGCtrl 8512.2]
+type = Enable
+time = 2230
+value = 1
+
+[BGCtrl 8512.3]
+type = Enable
+time = 2265
+value = 0
+
+[BGCtrl 8513.1]
+type = PosSet
+time = 2493
+x = 155
+
+[BGCtrl 8513.2]
+type = Enable
+time = 2493
+value = 1
+
+[BGCtrl 8513.3]
+type = Enable
+time = 2528
+value = 0
+
+[BGCtrl 8514.1]
+type = PosSet
+time = 2812
+x = 201
+
+[BGCtrl 8514.2]
+type = Enable
+time = 2812
+value = 1
+
+[BGCtrl 8514.3]
+type = Enable
+time = 2847
+value = 0
+
+[BGCtrl 8515.1]
+type = PosSet
+time = 2921
+x = 159
+
+[BGCtrl 8515.2]
+type = Enable
+time = 2921
+value = 1
+
+[BGCtrl 8515.3]
+type = Enable
+time = 2956
+value = 0
+
+[BGCtrl 8516.1]
+type = PosSet
+time = 3060
+x = 321
+
+[BGCtrl 8516.2]
+type = Enable
+time = 3060
+value = 1
+
+[BGCtrl 8516.3]
+type = Enable
+time = 3095
+value = 0
+
+[BGCtrl 8517.1]
+type = PosSet
+time = 3163
+x = 185
+
+[BGCtrl 8517.2]
+type = Enable
+time = 3163
+value = 1
+
+[BGCtrl 8517.3]
+type = Enable
+time = 3198
+value = 0
+
+[BGCtrl 8518.1]
+type = PosSet
+time = 3230
+x = 310
+
+[BGCtrl 8518.2]
+type = Enable
+time = 3230
+value = 1
+
+[BGCtrl 8518.3]
+type = Enable
+time = 3265
+value = 0
+
+[BGCtrl 8519.1]
+type = PosSet
+time = 3384
+x = 313
+
+[BGCtrl 8519.2]
+type = Enable
+time = 3384
+value = 1
+
+[BGCtrl 8519.3]
+type = Enable
+time = 3419
+value = 0
+
+[BGCtrl 8520.1]
+type = PosSet
+time = 3453
+x = 248
+
+[BGCtrl 8520.2]
+type = Enable
+time = 3453
+value = 1
+
+[BGCtrl 8520.3]
+type = Enable
+time = 3488
+value = 0
+
+[Begin Action 8]
+8,0, 0,0, 1
+8,1, 0,0, 1
+8,2, 0,0, 1
+8,3, 0,0, 1
+8,4, 0,0, 1
+8,5, 0,0, 1
+8,6, 0,0, 1
+8,7, 0,0, 1
+8,8, 0,0, 1
+8,9, 0,0, 1
+8,10, 0,0, 1
+8,11, 0,0, 1
+8,12, 0,0, 1
+8,13, 0,0, 1
+8,14, 0,0, 1
+8,15, 0,0, 1
+8,16, 0,0, 1
+8,17, 0,0, 2
+8,18, 0,0, 3
+8,19, 0,0, 3
+8,20, 0,0, 3
+8,21, 0,0, 3
+8,22, 0,0, 4

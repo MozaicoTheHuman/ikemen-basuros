@@ -1,0 +1,204 @@
+[Info]
+name = "Green Hill Zone"
+
+[Camera]
+startx = 0
+starty = 0
+boundleft = -200
+boundright = 125
+boundhigh = -200
+boundlow = 0
+verticalfollow = .5
+tension = 50
+
+[PlayerInfo]
+p1startx = -70
+p1starty = 0
+p1startz = 0
+p1facing = 1
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0
+botbound  =  0
+
+[Scaling]
+topz = 0
+botz = 50
+topscale = 1
+botscale = 1.2
+
+[Bound]
+screenleft = 15
+screenright = 15
+
+[StageInfo]
+zoffset = 200
+autoturn = 1
+resetBG = 0
+
+[Shadow]
+color = 128,128,128
+yscale = .4
+
+[Music]
+bgmusic = sound/GreenHill.mp3
+bgvolume = 800
+
+[BGdef]
+spr = stages/GreenHill.sff
+debugbg=1
+
+[BG 3]
+type = normal
+spriteno = 0,5
+start = 0,240
+delta = 1,.2
+mask = 0
+
+[BG 3]
+type = normal
+spriteno = 0,4
+start = 0,240
+delta = 1,.2
+mask = 1
+
+[BG 3]
+type = anim
+actionno = 1
+start = 0,240
+delta = 1,.2
+mask = 1
+
+;-------------------------------
+
+[BG 3]
+type = anim
+actionno = 31
+start = -50,240
+delta = .9,.5
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 0,7
+start = 0,240
+delta = .9,.5
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 0,8
+start = 0,240
+delta = 1,.5
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 0,8
+start = 0,259
+delta = 1,.5
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 0,8
+start = 0,278
+delta = 1,.5
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 1,0
+start = -145,240
+delta = 1,1
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 1,0
+start = 170,240
+delta = 1,1
+mask = 1
+
+[BG 3]
+type = anim
+actionno = 2
+start = 210,240
+delta = 1,1
+mask = 1
+
+[BG 3]
+type = anim
+actionno = 2
+start = 250,240
+delta = 1,1
+mask = 1
+
+[BG 3]
+type = anim
+actionno = 3
+start = -175,240
+delta = 1,1
+mask = 1
+
+[BG 3]
+type = anim
+actionno = 3
+start = 20,240
+delta = 1,1
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 4,0
+start = 130,240
+delta = 1,1
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 4,1
+start = -120,240
+delta = 1,1
+mask = 1
+
+[BG 3]
+type = normal
+spriteno = 0,6
+start = 0,240
+delta = 1,1
+mask = 1
+
+
+
+
+
+
+
+
+
+[Begin Action 1]
+0,0,0,0,5
+0,1,0,0,5
+0,2,0,0,5
+0,3,0,0,5
+
+[Begin Action 2]
+2,0,0,0,180
+2,1,0,0,10
+2,2,0,0,180
+2,1,0,0,10
+
+[Begin Action 3]
+3,0,0,0,30
+3,1,0,0,30
+
+[Begin Action 31]
+3,2,0,0,30
+3,3,0,0,30
