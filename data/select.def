@@ -336,6 +336,7 @@ stages/Midgar_Big.def
 stages/Smash_Mementos.def
 stages/Terry_Stage.def
 stages/Undertale-LastCorridor.def
+stages/moes.def
 
 ;-------------------------------------------------------------------------------
 [Options]

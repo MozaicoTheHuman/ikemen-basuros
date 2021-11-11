@@ -5,6 +5,9 @@
     },
     "freebattle": {
       "playtime": 0.1
+    },
+    "netplayversus": {
+      "playtime": 0
     }
   },
   "playtime": 0.1
