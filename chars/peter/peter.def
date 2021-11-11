@@ -1,0 +1,44 @@
+;  peter griffin de Padre de Familia ver. 2.3 - update junio 2018
+; made in El Salvador, central america.
+
+; player information
+[info]
+name ="Peter Griffin"
+displayname ="peter"
+versiondate =04,14,2002    ;2018
+mugenversion =04,14,2002   ;de Winmugen hasta Mugen 1.1
+author ="Warner"
+pal.defaults = 1,3,4,2     
+localcoord = 320,240 
+
+; files for the player
+[files]
+cmd     = peter.cmd   ;command set
+cns     = peter.cns   ;constants
+st      = peter.cns   ;states
+stcommon = common1.cns ;common states
+sprite  = peter.sff   ;sprite
+anim    = peter.air   ;animation
+sound   = peter.snd   ;sound
+pal1    = peter.act  
+pal2    = peter2.act
+pal3    = peter3.act
+pal4    = peter4.act
+pal5    = peter5.act
+pal6    = peter6.act
+pal7    = peter7.act
+pal8    = peter8.act
+pal9    = peter9.act
+pal10   = peter10.act 
+pal11   = peter11.act
+pal12   = peter12.act
+; arcade mode
+;[arcade]
+;intro.storyboard = intro.def
+;ending.storyboard = ending.def
+
+;ojala les divierta, esperen un futuro update. ;)
+
+
+
+

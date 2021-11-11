@@ -1,0 +1,158 @@
+==================================================================================
+**********************************************************************************
+
+  PINGU - "Original" M.U.G.E.N. Character made by mulambø 10/09/2005 - 15/10/2005
+
+	    http://www.orimuga.altervista.org - mulambo_mc@hotmail.com
+
+**********************************************************************************
+==================================================================================
+
+                                   WARNING!!
+
+DO NOT DISTRIBUTE THIS CHARACTER WITHOUT MY SPECIFIC AUTHORIZATION. IF YOU WANT 
+YOU CAN EDIT THIS CHAR BUT USE IT ONLY ON YOUR OWN, DON'T DISTRIBUTE AN EDITED 
+VERSION OF THIS CHAR UNLESS YOU ASK ME IF YOU CAN. (man, i'm just telling you to
+be respectful...it ain't so hard to understand ;) )
+
+
+==================================================================================
+
+                		     INFOS
+
+Hi! Firs of all : SORRY FOR MY BAD ENGLISH. I HOPE YOU'LL BE ABLE TO UNDERSTAND
+THE SENTENCES BELOW (i'm working on it and i'm trying to be more understandable as
+i can).
+Then, let's say that this character isn't really "original". Even if i made the 
+graphic part of the character, the real Pingu's concept belongs to Aldo Mazzola, 
+his real author, the person to whom i dedicate this little "fan art". This char
+is also a gift to all the Pingu's fans in the world and a praise to childhood itself.
+I made it in a month and half but I really hope you'll have fun with it. ^_^
+
+                           WINMUGEN MP3 PLUGIN PROBLEM
+
+I tried to convert the character to the WinMugen platform. It seems to work 
+correctly but a defect seems to remain: the music in Pingu's intro and ending 
+storyboards (those ones you can view in the Arcade mode) sounds corrupted or
+doesn't sound at all for unknown reasons. I think that the problem is related to
+a specific mp3 plugin, needed to play the songs correctly so, if you have some 
+good clues about that, please let me know how to solve this problem. ;)
+
+                               THE CREDITS CORNER
+
+Graphics (original sprites + projectiles) : mulambø (+ other fx ripped from other games)
+Sounds (voices and fx)                    : Pingu's original series (+ ripped from other games)
+Code / Programming                        : mulambø 
+Music Rips  (storyboards)                 : Pingu's original series 
+                                            "Eve of the Apocalypse" - Malevolent Creation
+                                            "Descendo" - The Smashing Pumpkins
+Betatester                                : SlayerGatsu
+
+                                  SPECIAL THANX
+
+Mugenation, the Italian Mugen Community, Elphizo and everyone who helped me (you
+know who you are! ;) )
+
+
+==================================================================================
+**********************************************************************************
+
+                                   ADVERTISING!
+
+If you're interested in being part of an original M.U.G.E.N. game project (ex.: you 
+want to make chars, grafic fx, sound fx/ voice or anything useful) visit the site:
+
+                               http://www.orimuga.altervista.org
+
+
+and become a member of the Orimuga Team! The more we are, the better it will be. ;)
+
+**********************************************************************************
+==================================================================================
+
+
+				THE COMMAND LIST
+
+a = a button
+b = b button
+c = c button
+x = x button
+y = y button
+z = z button
+(so obvious...)
+s = start button 
+
+F = forward button
+B = backward button
+D = down button
+U = up button
+DF = down-forward button
+DB = down-backward button
+
+~*button* = hold *button* for a while
+
+
+----------------------------------------------------------------------------------
+
+NORMAL MOVES
+
+
+a = standing / crouching / air weak kick
+b = standing / crouching / air strong kick
+x = standing / crouching / air weak head
+y = standing / crouching / air strong head
+x+y = power charge
+a+x/z = dodge
+s = meck-meck taunt
+F,F = running
+B,B = step back
+
+
+SPECIAL MOVES
+
+
+D,DF,F+x = Weak Meck-meck Attack!
+D,DF,F+y = Strong Meck-meck Attack!
+********
+D,DB,B+x = SnowBall
+D,DB,B+y = Double SnowBall
+********
+F,D,DF+x = Weak Pinguken
+F,D,DF+y = Strong Pinguken
+********
+~B,F+a = Weak PinguBall
+~B,F+b = Strong PinguBall
+********
+D,DF,F+a = Weak PinguBall (in air)
+D,DF,F+b = Strong PinguBall (in air)
+********
+D,DB,B+a = Weak Tatsumaki-pingu-kyaku
+D,DB,B+b = Strong Tatsumaki-pingu-kyaku
+
+
+HYPER MOVES
+
+
+D,DF,F,D,DF,F+x = Weak Hyper Meck-meck Attack! (level 1)
+D,DF,F,D,DF,F+y = Strong Hyper Meck-meck Attack! (level 2)
+********
+D,DB,B,D,DB,B+x = Snow-Mitra (level 1)
+D,DB,B,D,DB,B+y = Snow-Cannon (level 2)
+********
+~B,F,B,F+a = Triple PinguBall (level 1)
+~B,F,B,F+b = Robby-Ball Combined Attack (level 2)
+********
+D,DB,B,D,DB,B+a = Hyper Tatsumaki-pingu-kyaku (level 1)
+D,DB,B,D,DB,B+b = Robby Combined Spinning Attack (level 2)
+********
+D,DF,F,D,DF,F+a+b = Pin-Goku-Satsu (level 3) (fatal move)
+D,DB,B,D,DF,F+x+y = Super Scary Attack! (level 3) (fatal move) (you must have the 50% of vital energy to do this move)
+                    (hint: press "y" in the same moment of the attack - you must be very lucky - to receive the minimum damage)
+
+
+---------------------------------------------------------------------------------------
+
+so....HAVE FUN! ^_^
+
+
+                           
