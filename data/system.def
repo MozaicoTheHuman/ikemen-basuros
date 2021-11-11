@@ -284,12 +284,12 @@ fadeout.time = 10
 ; As of MUGEN 1.0, the default motif is defined in data/mugen1/system.def.
 ; You can also edit mugen.cfg to select the "big" motif.
 rows = 4
-columns = 10
+columns = 14
 wrapping = 0              ;1 to let cursor wrap around
-pos = 90,170              ;Position to draw to
+pos = 45,170              ;Position to draw to
 showemptyboxes = 0        ;1 to show empty boxes
 moveoveremptyboxes = 0    ;1 to allow cursor to move over empty boxes
-cell.size = 27,27         ;x,y size of each cell (in pixels)
+cell.size = 10,10         ;x,y size of each cell (in pixels)
 cell.spacing = 2          ;Space between each cell
 cell.bg.spr = 150,0       ;Note: Don't use animation for cells
 cell.random.spr = 151,0   ;Icon for random select (don't use animation)
@@ -300,7 +300,7 @@ p1.cursor.done.spr = 161,0
 p1.cursor.move.snd = 100,0
 p1.cursor.done.snd = 100,1
 p1.random.move.snd = 100,0
-p2.cursor.startcell = 0,4
+p2.cursor.startcell = 0,14
 p2.cursor.active.spr = 170,0
 p2.cursor.done.spr = 171,0
 p2.cursor.blink = 1       ;1 to blink p2's cursor if overlapping p1's
@@ -313,7 +313,7 @@ stage.done.snd = 100,1
 cancel.snd = 100,2
 portrait.spr = 9000,0
 portrait.offset = 0,0
-portrait.scale = 1,1
+portrait.scale = 0.5,0.5
 title.offset = 159,13     ;Position of title (Arcade Mode, etc)
 title.font = 3,0,0        ;Font of title (-1 for none)
 
